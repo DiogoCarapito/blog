@@ -1,0 +1,5 @@
+baseURL = 'https://diogocarapito.com/'
+languageCode = 'en-us'
+title = "diogo carapito's blog"
+theme = "hugo-coder"
+themeVariant = "dark"
