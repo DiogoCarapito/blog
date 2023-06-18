@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on diogo carapito</title>
+    <link>https://diogocarapito.github.io/blog/tags/</link>
+    <description>Recent content in Tags on diogo carapito</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jun 2023 11:29:28 +0100</lastBuildDate><atom:link href="https://diogocarapito.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>updates</title>
+      <link>https://diogocarapito.github.io/blog/tags/updates/</link>
+      <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datavis</title>
+      <link>https://diogocarapito.github.io/blog/tags/datavis/</link>
+      <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/datavis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>healthcare</title>
+      <link>https://diogocarapito.github.io/blog/tags/healthcare/</link>
+      <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://diogocarapito.github.io/blog/tags/projects/</link>
+      <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://diogocarapito.github.io/blog/tags/conference/</link>
+      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Snow Labs</title>
+      <link>https://diogocarapito.github.io/blog/tags/john-snow-labs/</link>
+      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/john-snow-labs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://diogocarapito.github.io/blog/tags/nlp/</link>
+      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

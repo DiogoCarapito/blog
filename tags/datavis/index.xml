@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>datavis on diogo carapito</title>
+    <link>https://diogocarapito.github.io/blog/tags/datavis/</link>
+    <description>Recent content in datavis on diogo carapito</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2023 00:41:49 +0100</lastBuildDate><atom:link href="https://diogocarapito.github.io/blog/tags/datavis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mgfhub.com is now live!</title>
+      <link>https://diogocarapito.github.io/blog/posts/mgfhub/</link>
+      <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/posts/mgfhub/</guid>
+      <description>I&amp;rsquo;m excited to announce that mgfhub.com is now live!
+It&amp;rsquo;s as a sort of &amp;ldquo;data visualization &amp;quot; for KPI&amp;rsquo;s (indicadores) in Portuguese Primary Care. I imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my day to day work:
+How many do exist?
+How do this KPI&amp;rsquo;s work
+How to find specific KPI&amp;rsquo;s (eg: which are related to diabetes?)
+What&amp;rsquo;s the impact of each KPI in the main performance index (IDG)?</description>
+    </item>
+    
+    <item>
+      <title>webapps and tutorials</title>
+      <link>https://diogocarapito.github.io/blog/posts/webapps_and_tutorials/</link>
+      <pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate>
+      
+      <guid>https://diogocarapito.github.io/blog/posts/webapps_and_tutorials/</guid>
+      <description>This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.
+For the backend I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials form James Briggs and Data independent. Google colab has been my best friend.
+Even though the backend is the new exiting stuff, I have a sweet spot for the way it’s presented.</description>
+    </item>
+    
+  </channel>
+</rss>
