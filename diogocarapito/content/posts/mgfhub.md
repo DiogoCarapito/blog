@@ -1,17 +1,14 @@
-+++
-date = 2023-05-02T00:41:49+01:00
-title = "mgfhub.com is now live!"
-categories = ['projects', 'datavis', 'healthcare']
-slug = ""
-authors = []
-tags = []
-externalLink = ""
-series = []
-+++
+---
+date: 2023-05-02T00:41:49+01:00
+title: "mgfhub.com is now live!"
+authors: ["diogo carapito"]
+tags: ['projects', 'datavis', 'healthcare']
+cover:
+    image: mgfhub.png
+    alt: "mgfhub.com"
+---
 
 I'm excited to announce that [mgfhub.com](https://mgfhub.com) is now live!
-
-![](mgfhub.png "mgfhub.com"){ width=50% align="center" }
 
 It's as a sort of "data visualization " for KPI's (indicadores) in Portuguese Primary Care.
 I imagined it for more than a year, and it's trying to answer questions that I have in my day to day work:
