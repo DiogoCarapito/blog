@@ -1,11 +1,11 @@
-baseURL: 'https://diogocarapito.com/'
-languageCode: 'en-us'
-title: "diogo carapito"
-theme: "PaperMod"
+baseURL: https://diogocarapito.github.io/blog/
+languageCode: en-us
+title: diogo carapito
+theme: PaperMod
 
 languages:
     en:
-        languageName: "English"
+        languageName: English
         weight: 1
         taxonomies:
             category: categories
@@ -32,7 +32,7 @@ outputs:
 
 params:
     homeInfoParams:
-        Title: "diogo carapito"
+        Title: diogo carapito
         Content: >
           - medical doctor 
           
