@@ -21,4 +21,4 @@ I'll have some news soon, since i've already delivering my project on [Predictiv
 
 
 *lets publish this and see if it works ;)*
-thanks [david hwang](https://www.youtube.com/watch?v=_QSr2_pxIJs) for your tutorial
+thanks [david hwang](https://www.youtube.com/watch?v=_QSr2_pxIJs) for your tutorial.
