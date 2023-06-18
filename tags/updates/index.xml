@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>updates on diogo carapito</title>
-    <link>https://diogocarapito.github.io/blog/tags/updates/</link>
+    <link>https://diogocarapito.com/tags/updates/</link>
     <description>Recent content in updates on diogo carapito</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2023 11:29:28 +0100</lastBuildDate><atom:link href="https://diogocarapito.github.io/blog/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2023 11:29:28 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo!</title>
-      <link>https://diogocarapito.github.io/blog/posts/hugo/</link>
+      <link>https://diogocarapito.com/posts/hugo/</link>
       <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
       
-      <guid>https://diogocarapito.github.io/blog/posts/hugo/</guid>
+      <guid>https://diogocarapito.com/posts/hugo/</guid>
       <description>Last time I posted a blog post I went nuts to make it work. I couldn&amp;rsquo;t remember how to publish a post. I don&amp;rsquo;t what it was, maybe guithub pages, maybe the quarto framework, but defenitly my dumbness was a big part of it. I just can&amp;rsquo;t grasp yet how all this unintuitive git shenanigans works. So I&amp;rsquo;ve been postponing my new blog post knowing what awaited me.
 Meanwhile, I remembered a friend of mine Inês Pereira had a blog with the same pourpouse, and it crossed my eyes another blog https://notadoctor.</description>
     </item>
     
     <item>
       <title>hello, world!</title>
-      <link>https://diogocarapito.github.io/blog/posts/hello_world/</link>
+      <link>https://diogocarapito.com/posts/hello_world/</link>
       <pubDate>Sun, 05 Mar 2023 22:18:37 +0100</pubDate>
       
-      <guid>https://diogocarapito.github.io/blog/posts/hello_world/</guid>
+      <guid>https://diogocarapito.com/posts/hello_world/</guid>
       <description>I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you). There is so much potential and I have so many ideas!
 So, lately I’ve been:
 grinding through fast.ai Practical Deep Learning for Coders (just finished the 4th lesson this week) exploring website domain name stuff and setting up an website of my previous project (Primary care KPI’s exploration tool, mgfhub.</description>
