@@ -1,7 +1,7 @@
-baseURL: https://diogocarapito.github.io/blog/
-languageCode: en-us
-title: diogo carapito
-theme: PaperMod
+baseURL: "https://diogocarapito.com/"
+languageCode: "en-us"
+title: "diogo carapito"
+theme: "PaperMod"
 
 languages:
     en:
