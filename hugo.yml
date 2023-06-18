@@ -34,11 +34,11 @@ params:
     homeInfoParams:
         Title: diogo carapito
         Content: >
-          - medical doctor 
+          - medical doctor, studied @[NOVA Medical School](https://www.nms.unl.pt/en-us/nms)
           
-          - 3rd year General and Family Medicine resident @ARSLVT, Portugal
+          - 3rd year General and Family Medicine resident @[ARSLVT](https://www.arslvt.min-saude.pt/), Portugal
           
-          - postgraduate in Information Management and Business Intelligence in Healthcare @NOVA IMS
+          - postgraduate in Information Management and Business Intelligence in Healthcare  @[NOVA IMS](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/)
           
           - learing about data science, machine learning and large language models
 
