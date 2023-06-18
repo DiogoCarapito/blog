@@ -13,7 +13,7 @@ Last time I posted a blog post I went nuts to make it work. I couldn't remember 
 Meanwhile, I remembered a friend of mine **[Inês Pereira](https://inespereira.me/)** had a blog with the same pourpouse, and it crossed my eyes another blog **[https://notadoctor.me/](https://notadoctor.me/)** that used looked like hers.
 They both look **sleek** and **simple**. And both are made with **[hugo](https://gohugo.io/)**. So i dug in.
 
-Hugo seems to be a static site generator, that uses markdown files to generate html pages. It's fast, it's simple, it's easy to use
+Hugo seems to be a static site generator, that uses markdown files to generate html pages. It's fast, it's simple, it's easy to use.
 
 Even though the setting up part was not that easy as promised (**why can everything work like python?**), I ended up with a better looking site. I't seems customizable enough to fuss arround in the future if i need. 
 
@@ -21,4 +21,5 @@ I'll have some news soon, since i've already delivering my project on [Predictiv
 
 
 *lets publish this and see if it works ;)*
+
 thanks [david hwang](https://www.youtube.com/watch?v=_QSr2_pxIJs) for your tutorial.
