@@ -109,8 +109,8 @@ How do KPI&rsquo;s work?"/>
   "keywords": [
     "projects", "datavis", "healthcare"
   ],
-  "articleBody": "I’m excited to announce that mgfhub.com is now live!\nIt’s as a sort of search tool with data visualization components for KPI’s (indicadores) that exists in Portuguese Primary Care. I imagined it for more than a year, and it’s trying to answer questions that I have in my day to day life as a Family Medicine Resident when I’m working with KPI’s:\nHow many KPI’s exist?\nHow do KPI’s work?\nHow to quickly find specific KPI’s (eg: which KPI’s are related to diabetes?)\nWhat’s the impact of each KPI in the main performance index (IDG)?\nI also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink. It’s messy).\nI’ve used Flask as my framework, Dash and Bootstrap to make it pretty. I’ve hosted it on Render and the Cloudflare to manage the domain (even though for my subsequent projects I’ve been using Porkbun).\nThere are still some rough edges, it’s a work in progress, but I’m happy for what I’ve accomplished so far.\n",
-  "wordCount" : "194",
+  "articleBody": "I’m excited to announce that mgfhub.com is now live!\nIt’s as a sort of search tool with data visualization components for KPI’s (indicadores) that exists in Portuguese Primary Care. I imagined it for more than a year, and it’s trying to answer questions that I have in my day to day life as a Family Medicine Resident when I’m working with KPI’s:\nHow many KPI’s exist?\nHow do KPI’s work?\nHow to quickly find specific KPI’s (eg: which KPI’s are related to diabetes?)\nWhat’s the impact of each KPI in the main performance index (IDG)?\nInformation was scattered in different places. I ended up scrapping the data from the official platform (SDM) and creating a database with all the information I needed. I merged the info with the official documentation and created a webapp. The information is displayed in table form, with filters and a search bar using fuzzy logic search. There is an alternate card form with some graphics too.\nThere is also a sunburst chart to visualize the weight of each KPI in the main performance index (IDG). I’ve used Flask as my framework, Dash and Bootstrap to make it pretty. I’ve hosted it on Render and the Cloudflare to manage the domain (even though for my subsequent projects I ended up using Porkbun, it’s way simpler and close to the same price).\nThere are still some rough edges, it’s a work in progress, but I’m happy for what I’ve accomplished so far.\n",
+  "wordCount" : "245",
   "inLanguage": "en",
   "image":"https://diogocarapito.com/mgfhub.png","datePublished": "2023-05-02T00:41:49+01:00",
   "dateModified": "2023-05-02T00:41:49+01:00",
@@ -220,10 +220,15 @@ I imagined it for more than a year, and it&rsquo;s trying to answer questions th
 <p>What&rsquo;s the impact of each KPI in the main performance index (IDG)?</p>
 </li>
 </ul>
-<p>I also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink.
-It&rsquo;s messy).</p>
+<p>Information was scattered in different places.
+I ended up scrapping the data from the official platform (<strong><a href="https://sdm.min-saude.pt/BI.aspx?id=001&amp;CLUSTERS=S">SDM</a></strong>) and creating a database with all the information I needed.
+I merged the info with the official documentation and created a webapp.
+The information is displayed in <strong>table</strong> form, with filters and a search bar using fuzzy logic search. There is an alternate card form with some graphics too.</p>
+<p>There is also a <strong>sunburst</strong> chart to visualize the weight of each KPI in the main performance index (IDG).
+<img loading="lazy" src="https://github.com/DiogoCarapito/mgfhub/blob/master/assets/tabela.jpg" alt=""  />
+</p>
 <p>I&rsquo;ve used <strong><a href="https://flask.palletsprojects.com/en/2.3.x/">Flask</a></strong> as my framework, <strong><a href="https://dash.plotly.com/">Dash</a></strong> and <strong><a href="https://dash-bootstrap-components.opensource.faculty.ai/">Bootstrap</a></strong> to make it pretty.
-I&rsquo;ve hosted it on <strong>Render</strong> and the <strong><a href="https://www.cloudflare.com/">Cloudflare</a></strong> to manage the domain (even though for my subsequent projects I&rsquo;ve been using <strong>Porkbun</strong>).</p>
+I&rsquo;ve hosted it on <strong><a href="https://render.com/">Render</a></strong> and the <strong><a href="https://www.cloudflare.com/">Cloudflare</a></strong> to manage the domain (even though for my subsequent projects I ended up using <strong><a href="https://porkbun.com/">Porkbun</a></strong>, it&rsquo;s way simpler and close to the same price).</p>
 <p>There are still some rough edges, it&rsquo;s a work in progress, but I&rsquo;m happy for what I&rsquo;ve accomplished so far.</p>
 
 
