@@ -13,7 +13,7 @@
       <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
       
       <guid>https://diogocarapito.com/posts/hugo/</guid>
-      <description>Last time I posted a blog post I went nuts to make it work. I couldn&amp;rsquo;t remember how to publish a post. I don&amp;rsquo;t what it was, maybe guithub pages, maybe the quarto framework, but defenitly my dumbness was a big part of it. I just can&amp;rsquo;t grasp yet how all this unintuitive git shenanigans works. So I&amp;rsquo;ve been postponing my new blog post knowing what awaited me.
+      <description>Last time I posted a blog post I went nuts to make it work. I couldn&amp;rsquo;t remember how to publish a post. I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it. I just can&amp;rsquo;t grasp yet how all this unintuitive git shenanigans works. So I&amp;rsquo;ve been postponing my new blog post knowing what awaited me.
 Meanwhile, I remembered a friend of mine Inês Pereira had a blog with the same pourpouse, and it crossed my eyes another blog https://notadoctor.</description>
     </item>
     
@@ -24,11 +24,9 @@ Meanwhile, I remembered a friend of mine Inês Pereira had a blog with the same 
       
       <guid>https://diogocarapito.com/posts/mgfhub/</guid>
       <description>I&amp;rsquo;m excited to announce that mgfhub.com is now live!
-It&amp;rsquo;s as a sort of &amp;ldquo;data visualization &amp;quot; for KPI&amp;rsquo;s (indicadores) in Portuguese Primary Care. I imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my day to day work:
-How many do exist?
-How do this KPI&amp;rsquo;s work
-How to find specific KPI&amp;rsquo;s (eg: which are related to diabetes?)
-What&amp;rsquo;s the impact of each KPI in the main performance index (IDG)?</description>
+It&amp;rsquo;s as a sort of search tool with data visualization components for KPI&amp;rsquo;s (indicadores) that exists in Portuguese Primary Care. I imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my day to day life as a Family Medicine Resident when I&amp;rsquo;m working with KPI&amp;rsquo;s:
+How many KPI&amp;rsquo;s exist?
+How do KPI&amp;rsquo;s work?</description>
     </item>
     
     <item>
