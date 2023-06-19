@@ -8,24 +8,23 @@ cover:
     alt: "mgfhub.com"
 ---
 
-I'm excited to announce that [mgfhub.com](https://mgfhub.com) is now live!
+I'm excited to announce that **[mgfhub.com](https://mgfhub.com)** is now live!
 
-It's as a sort of "data visualization " for KPI's (indicadores) in Portuguese Primary Care.
-I imagined it for more than a year, and it's trying to answer questions that I have in my day to day work:
+It's as a sort of search tool with data visualization components for KPI's (indicadores) that exists in Portuguese Primary Care.
+I imagined it for more than a year, and it's trying to answer questions that I have in my day to day life as a Family Medicine Resident when I'm working with KPI's:
 
-- How many do exist?
+- How many KPI's exist?
 
-- How do this KPI's work
+- How do KPI's work?
 
-- How to find specific KPI's (eg: which are related to diabetes?)
+- How to quickly find specific KPI's (eg: which KPI's are related to diabetes?)
 
 - What's the impact of each KPI in the main performance index (IDG)?
 
-![](mgfhub_page.png "mgfhub indicadores"){ width=100% align="center" }
 
 I also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink. It's messy).
 
-I've used Flask as my framework, Dash and Bootstrap to make it pretty.
-I've hosted it on Render and the Cloudflare to manage the domain.
+I've used **[Flask](https://flask.palletsprojects.com/en/2.3.x/)** as my framework, **[Dash](https://dash.plotly.com/)** and **[Bootstrap](https://dash-bootstrap-components.opensource.faculty.ai/)** to make it pretty.
+I've hosted it on **Render** and the **[Cloudflare](https://www.cloudflare.com/)** to manage the domain (even though for my subsequent projects I've been using **Porkbun**). 
 
-There are still some rough edges, it's a work in progress, but I'm happy with the results so far. =)
+There are still some rough edges, it's a work in progress, but I'm happy for what I've accomplished so far.
