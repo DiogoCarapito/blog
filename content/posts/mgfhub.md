@@ -22,7 +22,8 @@ I imagined it for more than a year, and it's trying to answer questions that I h
 - What's the impact of each KPI in the main performance index (IDG)?
 
 
-I also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink. It's messy).
+I also wanted to provide an easy link to SDM, a official platform with all the details of each KPI, but navigation is not very intuitive (you had to know the number of the KPI and then put it on a hiperlink.
+It's messy).
 
 I've used **[Flask](https://flask.palletsprojects.com/en/2.3.x/)** as my framework, **[Dash](https://dash.plotly.com/)** and **[Bootstrap](https://dash-bootstrap-components.opensource.faculty.ai/)** to make it pretty.
 I've hosted it on **Render** and the **[Cloudflare](https://www.cloudflare.com/)** to manage the domain (even though for my subsequent projects I've been using **Porkbun**). 

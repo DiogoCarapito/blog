@@ -9,7 +9,8 @@ cover:
 
 ---
 
-This week I attended the **[NLP Summit Healthcare 2023](https://www.nlpsummit.org/)**, a free virtual event organized by the [John Snow Labs](https://www.johnsnowlabs.com/). It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
+This week I attended the **[NLP Summit Healthcare 2023](https://www.nlpsummit.org/)**, a free virtual event organized by the [John Snow Labs](https://www.johnsnowlabs.com/).
+It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
 
 
 ## 1. Best practices when developing NLP models
@@ -36,12 +37,15 @@ Gaurav Kaushik from ScienceIO presented a talk about **mitigating bias** in **he
 Check this article for further information: [Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://aclanthology.org/2020.acl-main.442.pdf)
 ## 3. Prototypical Networks for Interpretable Diagnosis Prediction
 
-**Betty van Aken** from **DATEXIS Research Group** presented about a language model that **makes predictions** based on parts of the text that are **similar to prototypical patients** providing justifications that doctors understand. It uses a prototypical network with label-wise attention to **find the most similar patients to the input text** and then uses a transformer to **predict the diagnosis**. This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.
+**Betty van Aken** from **DATEXIS Research Group** presented about a language model that **makes predictions** based on parts of the text that are **similar to prototypical patients** providing justifications that doctors understand.
+It uses a prototypical network with label-wise attention to **find the most similar patients to the input text** and then uses a transformer to **predict the diagnosis**.
+This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.
 
 Check their [demo](https://protopatient.demo.datexis.com/) and the paper here: [This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text](https://aclanthology.org/2022.aacl-main.14.pdf)
 ## 4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records
 
-AI in healthcare has important **privacy concerns**, especially when dealing with **sensitive data like Eletronic Health Records** (EHR). Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data. They propose generative modeling framework, EHR-Safe, that **can generate highly realistic synthetic EHR data** that are robust to privacy attacks.
+AI in healthcare has important **privacy concerns**, especially when dealing with **sensitive data like Eletronic Health Records** (EHR). Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data.
+They propose generative modeling framework, EHR-Safe, that **can generate highly realistic synthetic EHR data** that are robust to privacy attacks.
 
 Check their paper here: [EHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records](https://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html)
 
@@ -81,6 +85,9 @@ Finally, I’ll share some of the **articles** that were cited in the talks:
 
 ---
 
-There were many more interesting sessions i didn’t describe here, visit [https://www.nlpsummit.org/](https://www.nlpsummit.org/) if you want further information. I’ll be there next year for sure! Thanks for reading!
+There were many more interesting sessions I didn’t describe here, visit [https://www.nlpsummit.org/](https://www.nlpsummit.org/) if you want further information.
+I’ll be there next year for sure!
+Thanks for reading!
 
-PS: Copilot helped writing this blog post. LLMs are amazing and I’m excited to see what the future holds for NLP!
+PS: Copilot helped writing this blog post.
+LLMs are amazing and I’m excited to see what the future holds for NLP!

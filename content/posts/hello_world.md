@@ -8,7 +8,8 @@ cover:
     alt: "Diogo Carapito"
 ---
 
-I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you). There is so much potential and I have so many ideas!
+I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you).
+There is so much potential and I have so many ideas!
 
 So, lately I’ve been:
 - grinding through **[fast.ai Practical Deep Learning for Coders](https://www.youtube.com/watch?v=8SF_h3xF3cE&list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU)** (just finished the 4th lesson this week)
@@ -19,14 +20,20 @@ So, lately I’ve been:
 - trying and failing implementing LLMs with jupyter notebooks
 - exploring how to start a blog (thanks fast.ai for the push!)
 
-Initially I thought implementing a blog with **Dash** and publish it on [pythonanywhere.com](https://www.pythonanywhere.com/), since I’ve worked with Flask in the past months. But that would take more time to set up something that might be already solved.
+Initially I thought implementing a blog with **Dash** and publish it on [pythonanywhere.com](https://www.pythonanywhere.com/), since I’ve worked with Flask in the past months.
+But that would take more time to set up something that might be already solved.
 
 During fast.ai lessons Jeremy talked about [fastpages](https://github.com/fastai/fastpages), but seems that the project has been discontinued.
 
-I found [REPL Notes](https://replnotes.com/), it had a pretty and simple solution. It seems that the paid version wasn’t functioning right and it was too strict for personalization.
+I found [REPL Notes](https://replnotes.com/), it had a pretty and simple solution.
+It seems that the paid version wasn’t functioning right and it was too strict for personalization.
 
-I ended up with fastpages’ sucessor [quatro.org](https://quarto.org/). It offers enough personalization with clean and minimalistic visuals (thanks bootstrap). It has both code snippets and python visual implementation available. cool B-)
+I ended up with fastpages’ sucessor [quatro.org](https://quarto.org/).
+It offers enough personalization with clean and minimalistic visuals (thanks bootstrap).
+It has both code snippets and python visual implementation available.
+cool B-)
 
 That’s what I appreciate most: **eficient implementation and task automation that saves time**.
 
-I’m super exited about the upcoming future (with NLP everywhere!). Now that I have finished implementing my blog, I can check it out from my to-do list:)
+I’m super exited about the upcoming future (with NLP everywhere!).
+Now that I have finished implementing my blog, I can check it out from my to-do list:)
