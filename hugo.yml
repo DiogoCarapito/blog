@@ -21,8 +21,7 @@ languages:
                   weight: 10
                 - name: Tags
                   url: tags/
-                  weight: 15
-
+                  weight:
 
 outputs:
     home:
