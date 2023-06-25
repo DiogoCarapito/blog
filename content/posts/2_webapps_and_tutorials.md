@@ -4,7 +4,7 @@ title: "webapps and tutorials"
 authors: ["diogo carapito"]
 tags: ["projects", "datavis", "healthcare"]
 cover:
-    image: 2_pynecone gpt Q&A.png
+    image: 2_streamlit.png
     alt: webapps
     
 ---
