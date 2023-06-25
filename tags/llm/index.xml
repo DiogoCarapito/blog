@@ -14,8 +14,8 @@
       
       <guid>https://diogocarapito.com/posts/6_medical_llms/</guid>
       <description>I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&amp;rsquo;m sharing my notes here.
-LLMs LLMs and NLP in general have are providing new tools to solve existing problems in healthcare. Where is a list of some new tools that are available today:
-Question Answering Text Summarization Text Generation Information extraction (from clinical notes) Relation extraction (symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
+LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
     </item>
     
   </channel>
