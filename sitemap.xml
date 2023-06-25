@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://diogocarapito.com/</loc>
-    <lastmod>2023-06-18T11:29:28+01:00</lastmod>
+    <loc>https://diogocarapito.com/tags/conference/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/posts/hugo/</loc>
-    <lastmod>2023-06-18T11:29:28+01:00</lastmod>
+    <loc>https://diogocarapito.com/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/tags/healthcare/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/tags/john-snow-labs/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/tags/llm/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/posts/6_medical_llms/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
   </url><url>
     <loc>https://diogocarapito.com/posts/</loc>
-    <lastmod>2023-06-18T11:29:28+01:00</lastmod>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
   </url><url>
     <loc>https://diogocarapito.com/tags/</loc>
+    <lastmod>2023-06-25T09:10:00+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/tags/blog/</loc>
+    <lastmod>2023-06-18T11:29:28+01:00</lastmod>
+  </url><url>
+    <loc>https://diogocarapito.com/posts/5_hugo/</loc>
     <lastmod>2023-06-18T11:29:28+01:00</lastmod>
   </url><url>
     <loc>https://diogocarapito.com/tags/updates/</loc>
@@ -20,31 +38,22 @@
     <loc>https://diogocarapito.com/tags/datavis/</loc>
     <lastmod>2023-05-02T00:41:49+01:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/tags/healthcare/</loc>
-    <lastmod>2023-05-02T00:41:49+01:00</lastmod>
-  </url><url>
-    <loc>https://diogocarapito.com/posts/mgfhub/</loc>
+    <loc>https://diogocarapito.com/posts/4_mgfhub/</loc>
     <lastmod>2023-05-02T00:41:49+01:00</lastmod>
   </url><url>
     <loc>https://diogocarapito.com/tags/projects/</loc>
     <lastmod>2023-05-02T00:41:49+01:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/tags/conference/</loc>
-    <lastmod>2023-04-07T22:18:37+01:00</lastmod>
-  </url><url>
-    <loc>https://diogocarapito.com/tags/john-snow-labs/</loc>
-    <lastmod>2023-04-07T22:18:37+01:00</lastmod>
-  </url><url>
     <loc>https://diogocarapito.com/tags/nlp/</loc>
     <lastmod>2023-04-07T22:18:37+01:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/posts/nlp_summit_healtchare_2023/</loc>
+    <loc>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</loc>
     <lastmod>2023-04-07T22:18:37+01:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/posts/webapps_and_tutorials/</loc>
+    <loc>https://diogocarapito.com/posts/2_webapps_and_tutorials/</loc>
     <lastmod>2023-03-11T00:41:49+02:00</lastmod>
   </url><url>
-    <loc>https://diogocarapito.com/posts/hello_world/</loc>
+    <loc>https://diogocarapito.com/posts/1_hello_world/</loc>
     <lastmod>2023-03-05T22:18:37+01:00</lastmod>
   </url><url>
     <loc>https://diogocarapito.com/about/</loc>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLM on diogo carapito</title>
+    <link>https://diogocarapito.com/tags/llm/</link>
+    <description>Recent content in LLM on diogo carapito</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medical Large Language Models</title>
+      <link>https://diogocarapito.com/posts/6_medical_llms/</link>
+      <pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate>
+      
+      <guid>https://diogocarapito.com/posts/6_medical_llms/</guid>
+      <description>I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&amp;rsquo;m sharing my notes here.
+LLMs LLMs and NLP in general have are providing new tools to solve existing problems in healthcare. Where is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (from clinical notes) Relation extraction (symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
+    </item>
+    
+  </channel>
+</rss>

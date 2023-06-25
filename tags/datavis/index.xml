@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 02 May 2023 00:41:49 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/datavis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mgfhub.com is now live!</title>
-      <link>https://diogocarapito.com/posts/mgfhub/</link>
+      <link>https://diogocarapito.com/posts/4_mgfhub/</link>
       <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
       
-      <guid>https://diogocarapito.com/posts/mgfhub/</guid>
+      <guid>https://diogocarapito.com/posts/4_mgfhub/</guid>
       <description>I&amp;rsquo;m excited to announce that mgfhub.com is now live!
 It&amp;rsquo;s as a sort of search tool with data visualization components for KPI&amp;rsquo;s (indicadores) that exists in Portuguese Primary Care. I imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my day to day life as a Family Medicine Resident when I&amp;rsquo;m working with KPI&amp;rsquo;s:
 How many KPI&amp;rsquo;s exist?
@@ -21,10 +21,10 @@ How do KPI&amp;rsquo;s work?</description>
     
     <item>
       <title>webapps and tutorials</title>
-      <link>https://diogocarapito.com/posts/webapps_and_tutorials/</link>
+      <link>https://diogocarapito.com/posts/2_webapps_and_tutorials/</link>
       <pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate>
       
-      <guid>https://diogocarapito.com/posts/webapps_and_tutorials/</guid>
+      <guid>https://diogocarapito.com/posts/2_webapps_and_tutorials/</guid>
       <description>This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.
 For the backend I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials form James Briggs and Data independent. Google colab has been my best friend.
 Even though the backend is the new exiting stuff, I have a sweet spot for the way it’s presented.</description>

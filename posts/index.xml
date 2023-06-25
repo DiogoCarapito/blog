@@ -6,23 +6,34 @@
     <description>Recent content in Posts on diogo carapito</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2023 11:29:28 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hugo!</title>
-      <link>https://diogocarapito.com/posts/hugo/</link>
+      <title>Medical Large Language Models</title>
+      <link>https://diogocarapito.com/posts/6_medical_llms/</link>
+      <pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate>
+      
+      <guid>https://diogocarapito.com/posts/6_medical_llms/</guid>
+      <description>I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&amp;rsquo;m sharing my notes here.
+LLMs LLMs and NLP in general have are providing new tools to solve existing problems in healthcare. Where is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (from clinical notes) Relation extraction (symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://diogocarapito.com/posts/5_hugo/</link>
       <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
       
-      <guid>https://diogocarapito.com/posts/hugo/</guid>
+      <guid>https://diogocarapito.com/posts/5_hugo/</guid>
       <description>Last time I posted a blog post I went nuts to make it work. I couldn&amp;rsquo;t remember how to publish a post. I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it. I just can&amp;rsquo;t grasp yet how all this unintuitive git shenanigans works. So I&amp;rsquo;ve been postponing my new blog post knowing what awaited me.
 Meanwhile, I remembered a friend of mine Inês Pereira had a blog with the same pourpouse, and it crossed my eyes another blog https://notadoctor.</description>
     </item>
     
     <item>
       <title>mgfhub.com is now live!</title>
-      <link>https://diogocarapito.com/posts/mgfhub/</link>
+      <link>https://diogocarapito.com/posts/4_mgfhub/</link>
       <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
       
-      <guid>https://diogocarapito.com/posts/mgfhub/</guid>
+      <guid>https://diogocarapito.com/posts/4_mgfhub/</guid>
       <description>I&amp;rsquo;m excited to announce that mgfhub.com is now live!
 It&amp;rsquo;s as a sort of search tool with data visualization components for KPI&amp;rsquo;s (indicadores) that exists in Portuguese Primary Care. I imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my day to day life as a Family Medicine Resident when I&amp;rsquo;m working with KPI&amp;rsquo;s:
 How many KPI&amp;rsquo;s exist?
@@ -31,20 +42,20 @@ How do KPI&amp;rsquo;s work?</description>
     
     <item>
       <title>NLP Summit Healthcare 2023</title>
-      <link>https://diogocarapito.com/posts/nlp_summit_healtchare_2023/</link>
+      <link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link>
       <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
       
-      <guid>https://diogocarapito.com/posts/nlp_summit_healtchare_2023/</guid>
+      <guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid>
       <description>This week I attended the NLP Summit Healthcare 2023, a free virtual event organized by the John Snow Labs. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
 1. Best practices when developing NLP models Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</description>
     </item>
     
     <item>
       <title>webapps and tutorials</title>
-      <link>https://diogocarapito.com/posts/webapps_and_tutorials/</link>
+      <link>https://diogocarapito.com/posts/2_webapps_and_tutorials/</link>
       <pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate>
       
-      <guid>https://diogocarapito.com/posts/webapps_and_tutorials/</guid>
+      <guid>https://diogocarapito.com/posts/2_webapps_and_tutorials/</guid>
       <description>This week has been exiting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.
 For the backend I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials form James Briggs and Data independent. Google colab has been my best friend.
 Even though the backend is the new exiting stuff, I have a sweet spot for the way it’s presented.</description>
@@ -52,10 +63,10 @@ Even though the backend is the new exiting stuff, I have a sweet spot for the wa
     
     <item>
       <title>hello, world!</title>
-      <link>https://diogocarapito.com/posts/hello_world/</link>
+      <link>https://diogocarapito.com/posts/1_hello_world/</link>
       <pubDate>Sun, 05 Mar 2023 22:18:37 +0100</pubDate>
       
-      <guid>https://diogocarapito.com/posts/hello_world/</guid>
+      <guid>https://diogocarapito.com/posts/1_hello_world/</guid>
       <description>I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you). There is so much potential and I have so many ideas!
 So, lately I’ve been:
 grinding through fast.ai Practical Deep Learning for Coders (just finished the 4th lesson this week) exploring website domain name stuff and setting up an website of my previous project (Primary care KPI’s exploration tool, mgfhub.</description>
