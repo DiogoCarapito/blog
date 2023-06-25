@@ -21,7 +21,7 @@ languages:
                   weight: 10
                 - name: Tags
                   url: tags/
-                  weight:
+                  weight: 7
 
 outputs:
     home:
@@ -39,13 +39,13 @@ params:
           
           - postgraduate in Information Management and Business Intelligence in Healthcare  @[NOVA IMS](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/)
           
-          - learning about data science, machine learning and large language models
+          - curious about data science and large language models 
 
     profileMode:
-        enabled: false
+        enabled: False
         title: diogocarapito
-        imageUrl: "Diogo DALL-E circle 512.png"
-        imageTitle: Diogo DALL-E circle 512
+        imageUrl: /static/1_Diogo DALL-E circle 512.png
+        imageTitle: diogocarapito
         imageWidth: 120
         imageHeight: 120
         buttons:
@@ -61,3 +61,10 @@ params:
           url: "https://twitter.com/DiogoCarapito"
         - name: "linkedin"
           url: "https://www.linkedin.com/in/diogo-carapito-564a51262/"
+
+    assets:
+        favicon: "/favicon.ico"
+        favicon16x16:  "/favicon-16x16.png"
+        favicon32x32:  "/favicon-32x32.png"
+        apple_touch_icon:  "/apple-touch-icon.png"
+        safari_pinned_tab:  "/safari-pinned-tab.svg"
