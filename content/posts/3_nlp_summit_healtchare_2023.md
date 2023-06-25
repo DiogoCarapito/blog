@@ -16,19 +16,19 @@ It was a great event with a lot of interesting talks. I’ll share some of my ke
 ## 1. Best practices when developing NLP models
 
 Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:
-- **Test your models!** - why would you expect untested software to work? Test your models with real data and real use cases and acess it’s performance.
+- **Test your models!** - why would you expect untested software to work? Test your models with real data and real use cases and assess it’s performance.
 - **Don’t reuse academic models in production** - published research ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.
-- **Test beyond accuracy** - Test for Rubustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed **[NLP test](https://nlptest.org/)** to help with model testing beyond regular benchmarks.
+- **Test beyond accuracy** - Test for Robustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed **[NLP test](https://nlptest.org/)** to help with model testing beyond regular benchmarks.
 
 ## 2. Mitigating bias in healthcare language models
 
-Gaurav Kaushik from ScienceIO presented a talk about **mitigating bias** in **healthcare language models** and the importance of it’s evaluation. **Performance benchmarks** lack the statistical power, they aren’t well validated enough and **don’t deincentivize the use of biased systems**.
+Gaurav Kaushik from ScienceIO presented a talk about **mitigating bias** in **healthcare language models** and the importance of its evaluation. **Performance benchmarks** lack the statistical power, they aren’t well validated enough and **don’t incentivize the use of biased systems**.
 
 - **Algorithmic bias** 
   - Systematic and repeatable errors that yield unfair outcomes which benefit certain groups over others 
   - Healthcare LP systems will influence clinical outcomes and therefore will mitigate or exacerbate outcome disparities 
 - **Selection Bias** - data used in training the model does not represent real-world
-- **Label bias** - mismatch between annotations and target, e.g. due to judgement, human error, or label ambiguity
+- **Label bias** - mismatch between annotations and target, _e.g._ due to judgement, human error, or label ambiguity
 - **Training bias** - models amplify biases in the training data
 - **Semantic bias** - bias from input representations such as inappropriate word associations
 - **Demographic bias** - improper sensitivity to race or gender, or impaired performance on attributes related to subgroups
@@ -37,15 +37,15 @@ Gaurav Kaushik from ScienceIO presented a talk about **mitigating bias** in **he
 Check this article for further information: [Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://aclanthology.org/2020.acl-main.442.pdf)
 ## 3. Prototypical Networks for Interpretable Diagnosis Prediction
 
-**Betty van Aken** from **DATEXIS Research Group** presented about a language model that **makes predictions** based on parts of the text that are **similar to prototypical patients** providing justifications that doctors understand.
+**Betty van Aken** from **DATEXIS Research Group** presented a language model that **makes predictions** based on parts of the text that are **similar to prototypical patients** providing justifications that doctors understand.
 It uses a prototypical network with label-wise attention to **find the most similar patients to the input text** and then uses a transformer to **predict the diagnosis**.
 This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.
 
 Check their [demo](https://protopatient.demo.datexis.com/) and the paper here: [This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text](https://aclanthology.org/2022.aacl-main.14.pdf)
 ## 4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records
 
-AI in healthcare has important **privacy concerns**, especially when dealing with **sensitive data like Eletronic Health Records** (EHR). Cloud AI Team presented one way to overcome this challenges is to generating high-fidelity, privacy-preserving synthetic HR data.
-They propose generative modeling framework, EHR-Safe, that **can generate highly realistic synthetic EHR data** that are robust to privacy attacks.
+AI in healthcare has important **privacy concerns**, especially when dealing with **sensitive data like Electronic Health Records** (EHR). Cloud AI Team suggested that one way to overcome this challenge is to generate high-fidelity, privacy-preserving synthetic EHR data.
+They proposed a generative modeling framework, EHR-Safe, that **can generate highly realistic synthetic EHR data** that are robust against privacy attacks.
 
 Check their paper here: [EHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records](https://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html)
 
@@ -53,8 +53,8 @@ Check their paper here: [EHR-Safe: Generating high-fidelity and privacy-preservi
 
 - **[John Snow Labs](https://www.johnsnowlabs.com/)** - organizer of the summit and creator of state-of-the-art NLP in healthcare, like [NLP test](https://github.com/johnsnowlabs/nlptest) and [SparkNLP](https://sparknlp.org/)
 - **[Discovery Lab](https://discoverylab.ai/)** - Lab funded by Elsevier, Vrije Universiteit Amsterdam and the University of Amsterdam that operates at the crossroads of Knowledge Representation, Machine Learning and Natural Language Processing.
-- **[NeuralMed](https://www.neuralmed.ai/en)** - an healthcare AI company that develops AI solutions for the healthcare industry.
-- **[Science IO](https://www.science.io/)** - works on medical text into enriched data to build solutions that improve patient care.
+- **[NeuralMed](https://www.neuralmed.ai/en)** - a healthcare AI company that develops AI solutions for the healthcare industry.
+- **[Science IO](https://www.science.io/)** - transforms medical text into enriched data to build solutions that improve patient care.
 - **[DATEXIS](https://github.com/DATEXIS)** - Data Science and Text-based Information Systems (DATEXIS) group at Beuth University of Applied Sciences Berlin
 
 ---
@@ -62,10 +62,10 @@ Check their paper here: [EHR-Safe: Generating high-fidelity and privacy-preservi
 This is a list of some interesting projects that were presented at the summit:
 
 - **[Spark NLP](https://sparknlp.org/)** - an open source text processing library for Python, Java, and Scala.
-- **[NLP test](https://nlptest.org/)** - a suit of tests to mitigating bias for NLP models.
+- **[NLP test](https://nlptest.org/)** - a suit of tests to help mitigate bias for NLP models.
 - **[BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM)** - a GPT style language model trained on biomedical abstracts and papers.
 - **[BioGPT](https://huggingface.co/microsoft/biogpt)** - a pre-trained language models on the biomedical domain.
-- **[ProtoPatient](https://protopatient.demo.datexis.com/)** Demo - diagnsotic predictions using clinical text and prototypical patients.
+- **[ProtoPatient](https://protopatient.demo.datexis.com/)** Demo - diagnostic predictions using clinical text and prototypical patients.
 - **[Clinical IE](https://huggingface.co/datasets/mitclinicalml/clinical-ie)** - a Large Language Model for information extraction of Clinical Text
 
 ---
@@ -89,5 +89,5 @@ There were many more interesting sessions I didn’t describe here, visit [https
 I’ll be there next year for sure!
 Thanks for reading!
 
-PS: Copilot helped writing this blog post.
+P.S. Copilot helped writing this blog post.
 LLMs are amazing and I’m excited to see what the future holds for NLP!
