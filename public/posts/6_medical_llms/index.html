@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Medical Large Language Models | diogo carapito</title>
+<meta name="keywords" content="conference, LLM, healthcare, John Snow Labs">
+<meta name="description" content="I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&rsquo;m sharing my notes here.
+LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.">
+<meta name="author" content="">
+<link rel="canonical" href="https://diogocarapito.com/posts/6_medical_llms/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://diogocarapito.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://diogocarapito.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://diogocarapito.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://diogocarapito.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://diogocarapito.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Medical Large Language Models" />
+<meta property="og:description" content="I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&rsquo;m sharing my notes here.
+LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://diogocarapito.com/posts/6_medical_llms/" />
+<meta property="og:image" content="https://diogocarapito.com/6_Medical%20Large%20Language%20Models%20for%20Clinical%20Text%20Summarization%20Information%20Extraction%20and%20Question%20Answering.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-25T09:10:00+01:00" />
+<meta property="article:modified_time" content="2023-06-25T09:10:00+01:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://diogocarapito.com/6_Medical%20Large%20Language%20Models%20for%20Clinical%20Text%20Summarization%20Information%20Extraction%20and%20Question%20Answering.png" />
+<meta name="twitter:title" content="Medical Large Language Models"/>
+<meta name="twitter:description" content="I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&rsquo;m sharing my notes here.
+LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
+Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://diogocarapito.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Medical Large Language Models",
+      "item": "https://diogocarapito.com/posts/6_medical_llms/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Medical Large Language Models",
+  "name": "Medical Large Language Models",
+  "description": "I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I\u0026rsquo;m sharing my notes here.\nLLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:\nQuestion Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.",
+  "keywords": [
+    "conference", "LLM", "healthcare", "John Snow Labs"
+  ],
+  "articleBody": "I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I’m sharing my notes here.\nLLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:\nQuestion Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from Anthropic. The last tend to be general purpose, powerful, but extremely expensive to train. The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks. This field is moving fast, which means that there is much potential for innovation, but it’s also a challenge to keep up with the state-of-the-art.\nHere is an overview of tasks that Medical LLMs can perform today:\nLLMs in Healthcare 1. Close book Q\u0026A: Question answering using BioGPT JSL as the base model and a knowledge base.\ndemo available here: https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/\n2. Medical text generation BioGPT JSL can also be used to generate text, like an elaborate response to a more open question, creating synthetic text or even synthetic patients. Demo available here: https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/\n(nice implementation with streamlit btw)\n3. Clinical text Summarization One of the most popular uses of LLMs in medical field is clinical summarization. An obvious use case is to summarize a patient’s medical history, since it can get very long and have repeated information. This summarization has its own specificities, like the need to preserve the medical terminology and the need to preserve the order of events.\ndemo available here: https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/\n4. Biomedical Research text Summarization A tool to help dealing with the avalanche of new research papers that are being published. It makes it easier to automate the process of reading and summarizing the papers.\n5. Patient Question text Summarization A way to outline the patient’s question to the doctor, so that the doctor can quickly understand the patient’s concern.\nNo-Code Medical Chatbots Another interesting concept is no-code implementations that JSL are developing, available at https://www.johnsnowlabs.com/nlp-lab/.\nIt can be used to create natural language interfaces to query databases, of both clinical records and biomedical research.\nThis seems very interesting to apply in a Business Intelligence + healthcare context. The user could help accelarate the adoption of BI practices in the field and make it more widespread.\nThree key requirements were proposed to comply these chatbots with current regulations (like new legislation that is being currently discussed in EU parliament).\nNo Data Sharing: Clinical data is sensitive. No data is shared through cloud, APIs and 3rd parties. Solutions must be secured under the firewall No BS: no hallucinations or unexplained results. Every answer can be explained and backed by a reference No Test Gaps: test for robustness, fairness, and bias, data leakage or toxicity. Being able to prove these tests to customers and regulators I’m amazed and overwhelmed by the potential of LLMs in the medical field. The possibilities are limitless.\nThe vod of the webcast can be found here: https://www.carahsoft.com/learn/event/45747-medical-large-language-models-for-clinical-text-summarization-information-extraction-and-question-answering\n",
+  "wordCount" : "543",
+  "inLanguage": "en",
+  "image":"https://diogocarapito.com/6_Medical%20Large%20Language%20Models%20for%20Clinical%20Text%20Summarization%20Information%20Extraction%20and%20Question%20Answering.png","datePublished": "2023-06-25T09:10:00+01:00",
+  "dateModified": "2023-06-25T09:10:00+01:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://diogocarapito.com/posts/6_medical_llms/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "diogo carapito",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://diogocarapito.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://diogocarapito.com/" accesskey="h" title="diogo carapito (Alt + H)">diogo carapito</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://diogocarapito.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diogocarapito.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diogocarapito.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Medical Large Language Models
+    </h1>
+    <div class="post-meta"><span title='2023-06-25 09:10:00 +0100 WEST'>June 25, 2023</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://diogocarapito.com/6_Medical%20Large%20Language%20Models%20for%20Clinical%20Text%20Summarization%20Information%20Extraction%20and%20Question%20Answering.png" alt="LLM_Bootcamp_2023">
+        
+</figure>
+  <div class="post-content"><p>I attended last week the <strong>Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering</strong> from <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>.
+I&rsquo;m sharing my notes here.</p>
+<h1 id="llms">LLMs<a hidden class="anchor" aria-hidden="true" href="#llms">#</a></h1>
+<p>LLMs and NLP in general are providing new tools to solve existing problems in healthcare.
+Here is a list of some new tools that are available today:</p>
+<ul>
+<li>Question Answering</li>
+<li>Text Summarization</li>
+<li>Text Generation</li>
+<li>Information extraction (<em>e.g.</em> from clinical notes)</li>
+<li>Relation extraction (<em>e.g.</em> symptoms related to a disease)</li>
+<li>Entity recognition (like ICD-10 code extraction)</li>
+<li>Chatbots</li>
+</ul>
+<p>Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from <a href="https://www.anthropic.com/index/introducing-claude">Anthropic</a>.
+The last tend to be general purpose, powerful, but extremely expensive to train.
+The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks.
+This field is moving fast, which means that there is much potential for innovation, but it&rsquo;s also a challenge to keep up with the state-of-the-art.</p>
+<p>Here is an overview of <strong>tasks</strong> that <strong>Medical LLMs</strong> can perform today:</p>
+<h1 id="llms-in-healthcare">LLMs in Healthcare<a hidden class="anchor" aria-hidden="true" href="#llms-in-healthcare">#</a></h1>
+<h3 id="1-close-book-qa">1. Close book Q&amp;A:<a hidden class="anchor" aria-hidden="true" href="#1-close-book-qa">#</a></h3>
+<p>Question answering using <a href="https://nlp.johnsnowlabs.com/2023/04/18/biogpt_chat_jsl_conversational_en.html">BioGPT JSL</a> as the base model and a knowledge base.</p>
+<p><em>demo available here: <a href="https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/">https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/</a></em></p>
+<h3 id="2-medical-text-generation">2. Medical text generation<a hidden class="anchor" aria-hidden="true" href="#2-medical-text-generation">#</a></h3>
+<p><a href="https://nlp.johnsnowlabs.com/2023/04/18/biogpt_chat_jsl_conversational_en.html">BioGPT JSL</a> can also be used to generate text,
+like an elaborate response to a more open question,
+creating synthetic text or even synthetic patients.
+<img loading="lazy" src="/post_images/6_text_generation.png" alt="test"  />
+
+<em>Demo available here: <a href="https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/">https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/</a></em></p>
+<p><em>(nice implementation with <a href="https://streamlit.io/">streamlit</a> btw)</em></p>
+<h3 id="3-clinical-text-summarization">3. Clinical text Summarization<a hidden class="anchor" aria-hidden="true" href="#3-clinical-text-summarization">#</a></h3>
+<p>One of the <strong>most popular</strong> uses of LLMs in medical field is <strong>clinical summarization</strong>.
+An obvious use case is to summarize a <strong>patient&rsquo;s medical history</strong>, since it can get very long and have repeated information.
+This summarization has its own specificities, like the need to <strong>preserve the medical terminology</strong> and the need to <strong>preserve the order of events</strong>.</p>
+<p><em>demo available here: <a href="https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/">https://demo.johnsnowlabs.com/healthcare/MEDICAL_LLM/</a></em></p>
+<h3 id="4-biomedical-research-text-summarization">4. Biomedical Research text Summarization<a hidden class="anchor" aria-hidden="true" href="#4-biomedical-research-text-summarization">#</a></h3>
+<p>A tool to help dealing with the avalanche of new research papers that are being published.
+It makes it easier to automate the process of reading and summarizing the papers.</p>
+<h3 id="5-patient-question-text-summarization">5. Patient Question text Summarization<a hidden class="anchor" aria-hidden="true" href="#5-patient-question-text-summarization">#</a></h3>
+<p>A way to outline the patient&rsquo;s question to the doctor, so that the doctor can quickly understand the patient&rsquo;s concern.</p>
+<p><img loading="lazy" src="/post_images/6_patient_questions.png" alt="patient question text"  />
+</p>
+<h1 id="no-code-medical-chatbots">No-Code Medical Chatbots<a hidden class="anchor" aria-hidden="true" href="#no-code-medical-chatbots">#</a></h1>
+<p>Another interesting concept is <strong>no-code implementations</strong> that JSL are developing,
+available at <a href="https://www.johnsnowlabs.com/nlp-lab/">https://www.johnsnowlabs.com/nlp-lab/</a>.</p>
+<p>It can be used to create <strong>natural language interfaces</strong> to query databases, of both clinical records and biomedical research.</p>
+<p><img loading="lazy" src="/post_images/6_query_serch.png" alt="query search"  />
+</p>
+<p>This seems very interesting to apply in a <strong>Business Intelligence</strong> + <strong>healthcare</strong> context.
+The user could help accelarate the adoption of BI practices in the field and make it more widespread.</p>
+<p>Three key requirements were proposed to <strong>comply</strong> these chatbots <strong>with current regulations</strong> (like new legislation that is being currently discussed in EU parliament).</p>
+<ul>
+<li><strong>No Data Sharing</strong>: Clinical data is sensitive. No data is shared through cloud, APIs and 3rd parties. Solutions must be secured under the firewall</li>
+<li><strong>No <em>BS</em></strong>: no hallucinations or unexplained results. Every answer can be explained and backed by a reference</li>
+<li><strong>No Test Gaps</strong>: test for robustness, fairness, and bias, data leakage or toxicity. Being able to prove these tests to customers and regulators</li>
+</ul>
+<hr>
+<p>I&rsquo;m <strong>amazed</strong> and <strong>overwhelmed</strong> by the potential of LLMs in the medical field. The possibilities are limitless.</p>
+<p>The vod of the webcast can be found here: <a href="https://www.carahsoft.com/learn/event/45747-medical-large-language-models-for-clinical-text-summarization-information-extraction-and-question-answering">https://www.carahsoft.com/learn/event/45747-medical-large-language-models-for-clinical-text-summarization-information-extraction-and-question-answering</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://diogocarapito.com/tags/conference/">conference</a></li>
+      <li><a href="https://diogocarapito.com/tags/llm/">LLM</a></li>
+      <li><a href="https://diogocarapito.com/tags/healthcare/">healthcare</a></li>
+      <li><a href="https://diogocarapito.com/tags/john-snow-labs/">John Snow Labs</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://diogocarapito.com/">diogo carapito</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
