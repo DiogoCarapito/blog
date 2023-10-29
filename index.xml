@@ -6,7 +6,19 @@
     <description>Recent content on diogo carapito</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate><atom:link href="https://diogocarapito.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summer is over! Time to MLOps</title>
+      <link>https://diogocarapito.com/posts/8_summer_is_over/</link>
+      <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
+      
+      <guid>https://diogocarapito.com/posts/8_summer_is_over/</guid>
+      <description>This summer was rough.
+The beguining was going well. I finished my project for Predictive Methods of Data Mining at NOVA IMS. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D
+I also watched the LLM Bootcamp 2023, which gave me a lot of insight on the current state of LLMs.
+But my side projects were slowing down.</description>
+    </item>
+    
     <item>
       <title>Medical Large Language Models</title>
       <link>https://diogocarapito.com/posts/6_medical_llms/</link>
