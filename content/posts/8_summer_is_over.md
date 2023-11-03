@@ -33,7 +33,7 @@ I'm currently finishing the 2rd course. Pretty good so far!
 
 I'm more agile working with the **command line** and **github**. 
 
-I'm tipping my toes in Docker, AWS and Rust.
+I'm dipping my toes in Docker, AWS and Rust.
 
 I'm even starting to realize that I might be need to create a **python library** for my data visualization projects, so i can replicate with ease the reports i've been doing for my clinical context.
 
