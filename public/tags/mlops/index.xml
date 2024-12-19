@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mlops on diogo carapito</title>
-    <link>https://diogocarapito.com/tags/mlops/</link>
-    <description>Recent content in mlops on diogo carapito</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Mlops on diogo carapito</title>
+    <link>http://localhost:1313/tags/mlops/</link>
+    <description>Recent content in Mlops on diogo carapito</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate><atom:link href="https://diogocarapito.com/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summer is over! Time to MLOps</title>
-      <link>https://diogocarapito.com/posts/8_summer_is_over/</link>
+      <link>http://localhost:1313/posts/8_summer_is_over/</link>
       <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/8_summer_is_over/</guid>
-      <description>This summer was rough.
-The beguining was going well. I finished my project for Predictive Methods of Data Mining at NOVA IMS. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D
-I also watched the LLM Bootcamp 2023, which gave me a lot of insight on the current state of LLMs.
-But my side projects were slowing down.</description>
+      <guid>http://localhost:1313/posts/8_summer_is_over/</guid>
+      <description>&lt;p&gt;This summer was &lt;strong&gt;rough&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The beguining was going well.&#xA;I finished my &lt;a href=&#34;https://github.com/DiogoCarapito/predictive_methods_project_nova_ims/&#34;&gt;project&lt;/a&gt; for &lt;strong&gt;Predictive Methods of Data Mining&lt;/strong&gt; at &lt;a href=&#34;https://www.novaims.unl.pt/&#34;&gt;NOVA IMS&lt;/a&gt;. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D&lt;br&gt;&#xA;I also watched the &lt;a href=&#34;https://www.youtube.com/watch?v=Kvxaj6pHeVA&#34;&gt;LLM Bootcamp 2023&lt;/a&gt;, which gave me a lot of insight on the current state of LLMs.&lt;/p&gt;&#xA;&lt;p&gt;But my side projects were slowing down.&#xA;I guess I was able to picture a structure in my head that might work (front end, backend&amp;rsquo;s data flow, data storage, RAG adn LLM inteerface) but I was having trouble implementing it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
