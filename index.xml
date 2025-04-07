@@ -1,103 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>diogo carapito</title>
-    <link>https://diogocarapito.com/</link>
-    <description>Recent content on diogo carapito</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate><atom:link href="https://diogocarapito.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Summer is over! Time to MLOps</title>
-      <link>https://diogocarapito.com/posts/8_summer_is_over/</link>
-      <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/8_summer_is_over/</guid>
-      <description>This summer was rough.
-The beguining was going well. I finished my project for Predictive Methods of Data Mining at NOVA IMS. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D
-I also watched the LLM Bootcamp 2023, which gave me a lot of insight on the current state of LLMs.
-But my side projects were slowing down.</description>
-    </item>
-    
-    <item>
-      <title>Medical Large Language Models</title>
-      <link>https://diogocarapito.com/posts/6_medical_llms/</link>
-      <pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/6_medical_llms/</guid>
-      <description>I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&amp;rsquo;m sharing my notes here.
-LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
-Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://diogocarapito.com/posts/5_hugo/</link>
-      <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/5_hugo/</guid>
-      <description>Last time I posted a blog post, I almost went nuts to make it work. I couldn&amp;rsquo;t remember how to publish a post. I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it. I just can&amp;rsquo;t grasp yet how all this unintuitive git shenanigans work. So I&amp;rsquo;ve been postponing my new blog post, knowing what awaited me.</description>
-    </item>
-    
-    <item>
-      <title>mgfhub.com is now live!</title>
-      <link>https://diogocarapito.com/posts/4_mgfhub/</link>
-      <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/4_mgfhub/</guid>
-      <description>I&amp;rsquo;m excited to announce that mgfhub.com is now live!
-It&amp;rsquo;s sort of a search tool with data visualization components for KPIs (&amp;ldquo;indicadores&amp;rdquo;) that exists in Portuguese Primary Care. I have imagined it for more than a year, and it&amp;rsquo;s trying to answer questions that I have in my daily life as a Family Medicine Resident when I&amp;rsquo;m working with KPIs:
-How many KPIs exist?
-How do KPIs work?
-How to quickly find specific KPIs (e.</description>
-    </item>
-    
-    <item>
-      <title>NLP Summit Healthcare 2023</title>
-      <link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link>
-      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid>
-      <description>This week I attended the NLP Summit Healthcare 2023, a free virtual event organized by the John Snow Labs. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
-1. Best practices when developing NLP models Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</description>
-    </item>
-    
-    <item>
-      <title>webapps and tutorials</title>
-      <link>https://diogocarapito.com/posts/2_webapps_and_tutorials/</link>
-      <pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/2_webapps_and_tutorials/</guid>
-      <description>This week has been exciting. I have this NLP project cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.
-For the backend, I’ve been cruising through Pinecone, LangChain and OpenAI API, thanks to tutorials from James Briggs and Data independent. Google colab has been my best friend.
-Even though the backend is the new exciting stuff, I have a sweet spot for the way it’s presented.</description>
-    </item>
-    
-    <item>
-      <title>hello, world!</title>
-      <link>https://diogocarapito.com/posts/1_hello_world/</link>
-      <pubDate>Sun, 05 Mar 2023 22:18:37 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/1_hello_world/</guid>
-      <description>I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you). There is so much potential and I have so many ideas!
-So, lately I’ve been:
-grinding through fast.ai Practical Deep Learning for Coders (just finished the 4th lesson this week) exploring website domain name stuff and setting up an website of my previous project (Primary care KPIs exploration tool, mgfhub.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://diogocarapito.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://diogocarapito.com/about/</guid>
-      <description>Diogo Carapito Medical Doctor, Studied @NOVA Medical School
-4rd year General and Family Medicine resident @ARSLVT, Portugal
-Postgraduate Program in Information Management and Business Intelligence in Healthcare @NOVA IMS
-Ongoing projects:
-mgfhub.com, a webapp to help search and find information primary care KPI&amp;rsquo;s. </description>
-    </item>
-    
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>diogo carapito</title><link>https://diogocarapito.com/</link><description>Recent content on diogo carapito</description><generator>Hugo -- 0.145.0</generator><language>en</language><lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate><atom:link href="https://diogocarapito.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Summer is over! Time to MLOps</title><link>https://diogocarapito.com/posts/8_summer_is_over/</link><pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate><guid>https://diogocarapito.com/posts/8_summer_is_over/</guid><description>&lt;p>This summer was &lt;strong>rough&lt;/strong>.&lt;/p>
+&lt;p>The beguining was going well.
+I finished my &lt;a href="https://github.com/DiogoCarapito/predictive_methods_project_nova_ims/">project&lt;/a> for &lt;strong>Predictive Methods of Data Mining&lt;/strong> at &lt;a href="https://www.novaims.unl.pt/">NOVA IMS&lt;/a>. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D&lt;br>
+I also watched the &lt;a href="https://www.youtube.com/watch?v=Kvxaj6pHeVA">LLM Bootcamp 2023&lt;/a>, which gave me a lot of insight on the current state of LLMs.&lt;/p>
+&lt;p>But my side projects were slowing down.
+I guess I was able to picture a structure in my head that might work (front end, backend&amp;rsquo;s data flow, data storage, RAG adn LLM inteerface) but I was having trouble implementing it.&lt;/p></description></item><item><title>Medical Large Language Models</title><link>https://diogocarapito.com/posts/6_medical_llms/</link><pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate><guid>https://diogocarapito.com/posts/6_medical_llms/</guid><description>&lt;p>I attended last week the &lt;strong>Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering&lt;/strong> from &lt;a href="https://www.johnsnowlabs.com/">John Snow Labs&lt;/a>.
+I&amp;rsquo;m sharing my notes here.&lt;/p>
+&lt;h1 id="llms">LLMs&lt;/h1>
+&lt;p>LLMs and NLP in general are providing new tools to solve existing problems in healthcare.
+Here is a list of some new tools that are available today:&lt;/p>
+&lt;ul>
+&lt;li>Question Answering&lt;/li>
+&lt;li>Text Summarization&lt;/li>
+&lt;li>Text Generation&lt;/li>
+&lt;li>Information extraction (&lt;em>e.g.&lt;/em> from clinical notes)&lt;/li>
+&lt;li>Relation extraction (&lt;em>e.g.&lt;/em> symptoms related to a disease)&lt;/li>
+&lt;li>Entity recognition (like ICD-10 code extraction)&lt;/li>
+&lt;li>Chatbots&lt;/li>
+&lt;/ul>
+&lt;p>Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from &lt;a href="https://www.anthropic.com/index/introducing-claude">Anthropic&lt;/a>.
+The last tend to be general purpose, powerful, but extremely expensive to train.
+The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks.
+This field is moving fast, which means that there is much potential for innovation, but it&amp;rsquo;s also a challenge to keep up with the state-of-the-art.&lt;/p></description></item><item><title>LLM Bootcamp 2023</title><link>https://diogocarapito.com/posts/7_llm_bootcamp_2023/</link><pubDate>Sun, 25 Jun 2023 08:09:28 +0100</pubDate><guid>https://diogocarapito.com/posts/7_llm_bootcamp_2023/</guid><description>&lt;p>I discovered the LLM Bootcamp 2023 on youtube.
+It&amp;rsquo;s a conference about MLOps that was recorded on April 2023 and it anserers many of my questions&lt;/p></description></item><item><title>hugo</title><link>https://diogocarapito.com/posts/5_hugo/</link><pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate><guid>https://diogocarapito.com/posts/5_hugo/</guid><description>&lt;p>Last time I posted a blog post, I almost went nuts to make it work.
+I couldn&amp;rsquo;t remember how to publish a post.
+I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it.
+I just can&amp;rsquo;t grasp yet &lt;strong>how&lt;/strong> all this &lt;strong>unintuitive git shenanigans work&lt;/strong>.
+So I&amp;rsquo;ve been postponing my new blog post, knowing what awaited me.&lt;/p></description></item><item><title>mgfhub.com is now live!</title><link>https://diogocarapito.com/posts/4_mgfhub/</link><pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate><guid>https://diogocarapito.com/posts/4_mgfhub/</guid><description>&lt;p>I&amp;rsquo;m excited to announce that &lt;strong>&lt;a href="https://mgfhub.com">mgfhub.com&lt;/a>&lt;/strong> is now live!&lt;/p>
+&lt;p>It&amp;rsquo;s sort of a search tool with data visualization components for &lt;strong>KPIs&lt;/strong> (&amp;ldquo;indicadores&amp;rdquo;) that exists in Portuguese Primary Care.
+I have imagined it for more than a year, and it&amp;rsquo;s trying to &lt;strong>answer questions&lt;/strong> that I have in my daily life as a Family Medicine Resident when I&amp;rsquo;m working with KPIs:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>How many KPIs exist?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How do KPIs work?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How to quickly find specific KPIs (&lt;em>e.g. which KPIs are related to diabetes?&lt;/em>)&lt;/p></description></item><item><title>NLP Summit Healthcare 2023</title><link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link><pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate><guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid><description>&lt;p>This week I attended the &lt;strong>&lt;a href="https://www.nlpsummit.org/">NLP Summit Healthcare 2023&lt;/a>&lt;/strong>, a free virtual event organized by the &lt;a href="https://www.johnsnowlabs.com/">John Snow Labs&lt;/a>.
+It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.&lt;/p>
+&lt;h2 id="1-best-practices-when-developing-nlp-models">1. Best practices when developing NLP models&lt;/h2>
+&lt;p>Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:&lt;/p></description></item><item><title>webapps and tutorials</title><link>https://diogocarapito.com/posts/2_webapps_and_tutorials/</link><pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate><guid>https://diogocarapito.com/posts/2_webapps_and_tutorials/</guid><description>&lt;p>This week has been exciting.
+I have this &lt;strong>NLP project&lt;/strong> cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.&lt;/p>
+&lt;p>For the backend, I’ve been cruising through &lt;strong>&lt;a href="https://www.pinecone.io/">Pinecone&lt;/a>&lt;/strong>, &lt;strong>&lt;a href="https://langchain.readthedocs.io/en/latest/">LangChain&lt;/a>&lt;/strong> and &lt;strong>OpenAI API&lt;/strong>, thanks to tutorials from &lt;strong>&lt;a href="https://www.youtube.com/@jamesbriggs">James Briggs&lt;/a>&lt;/strong> and &lt;strong>&lt;a href="https://www.youtube.com/@DataIndependent">Data independent&lt;/a>&lt;/strong>.
+Google colab has been my best friend.&lt;/p>
+&lt;p>Even though the backend is the new exciting stuff, I have a sweet spot for the way it’s presented.
+The frontend must:&lt;/p></description></item><item><title>hello, world!</title><link>https://diogocarapito.com/posts/1_hello_world/</link><pubDate>Sun, 05 Mar 2023 22:18:37 +0100</pubDate><guid>https://diogocarapito.com/posts/1_hello_world/</guid><description>&lt;p>I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you).
+There is so much potential and I have so many ideas!&lt;/p>
+&lt;p>So, lately I’ve been:&lt;/p>
+&lt;ul>
+&lt;li>grinding through &lt;strong>&lt;a href="https://www.youtube.com/watch?v=8SF_h3xF3cE&amp;amp;list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU">fast.ai Practical Deep Learning for Coders&lt;/a>&lt;/strong> (just finished the 4th lesson this week)&lt;/li>
+&lt;li>exploring &lt;strong>website domain name&lt;/strong> stuff and setting up an website of my previous project (Primary care KPIs exploration tool, &lt;strong>&lt;a href="mgfhub.com">mgfhub.com&lt;/a>&lt;/strong>)&lt;/li>
+&lt;li>reconnecting to social media (I’ve been away for a while now), setting up linkedin, twitter and joining relevant discord servers&lt;/li>
+&lt;li>after completing &lt;strong>&lt;a href="https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/">Postgraduate Program in Information Management and Business Intelligence in Healthcare&lt;/a>&lt;/strong> @NOVA IMS, I felt the need to keep learning about data mining, so i’m doing a single course on Predictive Methods of Data Mining&lt;/li>
+&lt;li>exploring DL, ML, NLP and LLM main concepts and recent developments (looking at you &lt;a href="https://www.chatbase.co/">chatbase.co&lt;/a>, &lt;a href="https://www.chatpdf.com/">ChatPDF&lt;/a> and &lt;a href="https://quarto-bot.onrender.com/">Quarto Help Bot&lt;/a>)&lt;/li>
+&lt;li>trying and failing implementing LLMs with jupyter notebooks&lt;/li>
+&lt;li>exploring how to start a blog (thanks fast.ai for the push!)&lt;/li>
+&lt;/ul>
+&lt;p>Initially I thought implementing a blog with &lt;strong>Dash&lt;/strong> and publish it on &lt;a href="https://www.pythonanywhere.com/">pythonanywhere.com&lt;/a>, since I’ve worked with Flask in the past months.
+But that would take more time to set up something that might be already solved.&lt;/p></description></item><item><title>About</title><link>https://diogocarapito.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://diogocarapito.com/about/</guid><description>&lt;h1 id="diogo-carapito">Diogo Carapito&lt;/h1>
+&lt;p>Medical Doctor, Studied @&lt;a href="https://www.nms.unl.pt/en-us/nms">NOVA Medical School&lt;/a>&lt;/p>
+&lt;p>4rd year General and Family Medicine resident @&lt;a href="https://www.arslvt.min-saude.pt/">ARSLVT&lt;/a>, Portugal&lt;/p>
+&lt;p>Postgraduate Program in Information Management and Business Intelligence in Healthcare @&lt;a href="https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/">NOVA IMS&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>Ongoing projects:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mgfhub.com">mgfhub.com&lt;/a>, a webapp to help search and find information primary care KPI&amp;rsquo;s.&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>NLP on diogo carapito</title>
-    <link>https://diogocarapito.com/tags/nlp/</link>
-    <description>Recent content in NLP on diogo carapito</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 07 Apr 2023 22:18:37 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>NLP Summit Healthcare 2023</title>
-      <link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link>
-      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid>
-      <description>This week I attended the NLP Summit Healthcare 2023, a free virtual event organized by the John Snow Labs. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
-1. Best practices when developing NLP models Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>NLP on diogo carapito</title><link>https://diogocarapito.com/tags/nlp/</link><description>Recent content in NLP on diogo carapito</description><generator>Hugo -- 0.145.0</generator><language>en</language><lastBuildDate>Fri, 07 Apr 2023 22:18:37 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/nlp/index.xml" rel="self" type="application/rss+xml"/><item><title>NLP Summit Healthcare 2023</title><link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link><pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate><guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid><description>&lt;p>This week I attended the &lt;strong>&lt;a href="https://www.nlpsummit.org/">NLP Summit Healthcare 2023&lt;/a>&lt;/strong>, a free virtual event organized by the &lt;a href="https://www.johnsnowlabs.com/">John Snow Labs&lt;/a>.
+It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.&lt;/p>
+&lt;h2 id="1-best-practices-when-developing-nlp-models">1. Best practices when developing NLP models&lt;/h2>
+&lt;p>Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:&lt;/p></description></item></channel></rss>

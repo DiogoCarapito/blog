@@ -1,32 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>conference on diogo carapito</title>
-    <link>https://diogocarapito.com/tags/conference/</link>
-    <description>Recent content in conference on diogo carapito</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/conference/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Medical Large Language Models</title>
-      <link>https://diogocarapito.com/posts/6_medical_llms/</link>
-      <pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/6_medical_llms/</guid>
-      <description>I attended last week the Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering from John Snow Labs. I&amp;rsquo;m sharing my notes here.
-LLMs LLMs and NLP in general are providing new tools to solve existing problems in healthcare. Here is a list of some new tools that are available today:
-Question Answering Text Summarization Text Generation Information extraction (e.g. from clinical notes) Relation extraction (e.g. symptoms related to a disease) Entity recognition (like ICD-10 code extraction) Chatbots Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.</description>
-    </item>
-    
-    <item>
-      <title>NLP Summit Healthcare 2023</title>
-      <link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link>
-      <pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate>
-      
-      <guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid>
-      <description>This week I attended the NLP Summit Healthcare 2023, a free virtual event organized by the John Snow Labs. It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
-1. Best practices when developing NLP models Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Conference on diogo carapito</title><link>https://diogocarapito.com/tags/conference/</link><description>Recent content in Conference on diogo carapito</description><generator>Hugo -- 0.145.0</generator><language>en</language><lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate><atom:link href="https://diogocarapito.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>Medical Large Language Models</title><link>https://diogocarapito.com/posts/6_medical_llms/</link><pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate><guid>https://diogocarapito.com/posts/6_medical_llms/</guid><description>&lt;p>I attended last week the &lt;strong>Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering&lt;/strong> from &lt;a href="https://www.johnsnowlabs.com/">John Snow Labs&lt;/a>.
+I&amp;rsquo;m sharing my notes here.&lt;/p>
+&lt;h1 id="llms">LLMs&lt;/h1>
+&lt;p>LLMs and NLP in general are providing new tools to solve existing problems in healthcare.
+Here is a list of some new tools that are available today:&lt;/p>
+&lt;ul>
+&lt;li>Question Answering&lt;/li>
+&lt;li>Text Summarization&lt;/li>
+&lt;li>Text Generation&lt;/li>
+&lt;li>Information extraction (&lt;em>e.g.&lt;/em> from clinical notes)&lt;/li>
+&lt;li>Relation extraction (&lt;em>e.g.&lt;/em> symptoms related to a disease)&lt;/li>
+&lt;li>Entity recognition (like ICD-10 code extraction)&lt;/li>
+&lt;li>Chatbots&lt;/li>
+&lt;/ul>
+&lt;p>Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from &lt;a href="https://www.anthropic.com/index/introducing-claude">Anthropic&lt;/a>.
+The last tend to be general purpose, powerful, but extremely expensive to train.
+The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks.
+This field is moving fast, which means that there is much potential for innovation, but it&amp;rsquo;s also a challenge to keep up with the state-of-the-art.&lt;/p></description></item><item><title>LLM Bootcamp 2023</title><link>https://diogocarapito.com/posts/7_llm_bootcamp_2023/</link><pubDate>Sun, 25 Jun 2023 08:09:28 +0100</pubDate><guid>https://diogocarapito.com/posts/7_llm_bootcamp_2023/</guid><description>&lt;p>I discovered the LLM Bootcamp 2023 on youtube.
+It&amp;rsquo;s a conference about MLOps that was recorded on April 2023 and it anserers many of my questions&lt;/p></description></item><item><title>NLP Summit Healthcare 2023</title><link>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</link><pubDate>Fri, 07 Apr 2023 22:18:37 +0100</pubDate><guid>https://diogocarapito.com/posts/3_nlp_summit_healtchare_2023/</guid><description>&lt;p>This week I attended the &lt;strong>&lt;a href="https://www.nlpsummit.org/">NLP Summit Healthcare 2023&lt;/a>&lt;/strong>, a free virtual event organized by the &lt;a href="https://www.johnsnowlabs.com/">John Snow Labs&lt;/a>.
+It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.&lt;/p>
+&lt;h2 id="1-best-practices-when-developing-nlp-models">1. Best practices when developing NLP models&lt;/h2>
+&lt;p>Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:&lt;/p></description></item></channel></rss>
