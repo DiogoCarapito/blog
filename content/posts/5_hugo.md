@@ -6,6 +6,7 @@ tags: ["updates", "blog"]
 cover:
     image: 5_hugo-logo-wide.png
     alt: "hugo_logo"
+draft: false
 ---
 
 Last time I posted a blog post, I almost went nuts to make it work.

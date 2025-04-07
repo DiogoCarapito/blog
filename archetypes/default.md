@@ -8,4 +8,3 @@ cover:
     alt:
 draft: true
 ---
-

@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on diogo carapito</title>
     <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on diogo carapito</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Dec 2024 11:17:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Internato is almost over</title>
-      <link>http://localhost:1313/posts/9_internato_is_over/</link>
-      <pubDate>Thu, 19 Dec 2024 11:17:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/9_internato_is_over/</guid>
-      <description>&lt;p&gt;My residency is almost over.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Summer is over! Time to MLOps</title>
       <link>http://localhost:1313/posts/8_summer_is_over/</link>
       <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
       <guid>http://localhost:1313/posts/8_summer_is_over/</guid>
-      <description>&lt;p&gt;This summer was &lt;strong&gt;rough&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The beguining was going well.&#xA;I finished my &lt;a href=&#34;https://github.com/DiogoCarapito/predictive_methods_project_nova_ims/&#34;&gt;project&lt;/a&gt; for &lt;strong&gt;Predictive Methods of Data Mining&lt;/strong&gt; at &lt;a href=&#34;https://www.novaims.unl.pt/&#34;&gt;NOVA IMS&lt;/a&gt;. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D&lt;br&gt;&#xA;I also watched the &lt;a href=&#34;https://www.youtube.com/watch?v=Kvxaj6pHeVA&#34;&gt;LLM Bootcamp 2023&lt;/a&gt;, which gave me a lot of insight on the current state of LLMs.&lt;/p&gt;&#xA;&lt;p&gt;But my side projects were slowing down.&#xA;I guess I was able to picture a structure in my head that might work (front end, backend&amp;rsquo;s data flow, data storage, RAG adn LLM inteerface) but I was having trouble implementing it.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This summer was &lt;strong&gt;rough&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The beguining was going well.
+I finished my &lt;a href=&#34;https://github.com/DiogoCarapito/predictive_methods_project_nova_ims/&#34;&gt;project&lt;/a&gt; for &lt;strong&gt;Predictive Methods of Data Mining&lt;/strong&gt; at &lt;a href=&#34;https://www.novaims.unl.pt/&#34;&gt;NOVA IMS&lt;/a&gt;. I&amp;rsquo;m pretty happy with the results. We ended up used streamlit, and we got a pretty good score on Kaggle with our rather simple neural network. =D&lt;br&gt;
+I also watched the &lt;a href=&#34;https://www.youtube.com/watch?v=Kvxaj6pHeVA&#34;&gt;LLM Bootcamp 2023&lt;/a&gt;, which gave me a lot of insight on the current state of LLMs.&lt;/p&gt;
+&lt;p&gt;But my side projects were slowing down.
+I guess I was able to picture a structure in my head that might work (front end, backend&amp;rsquo;s data flow, data storage, RAG adn LLM inteerface) but I was having trouble implementing it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo</title>
       <link>http://localhost:1313/posts/5_hugo/</link>
       <pubDate>Sun, 18 Jun 2023 11:29:28 +0100</pubDate>
       <guid>http://localhost:1313/posts/5_hugo/</guid>
-      <description>&lt;p&gt;Last time I posted a blog post, I almost went nuts to make it work.&#xA;I couldn&amp;rsquo;t remember how to publish a post.&#xA;I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it.&#xA;I just can&amp;rsquo;t grasp yet &lt;strong&gt;how&lt;/strong&gt; all this &lt;strong&gt;unintuitive git shenanigans work&lt;/strong&gt;.&#xA;So I&amp;rsquo;ve been postponing my new blog post, knowing what awaited me.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Last time I posted a blog post, I almost went nuts to make it work.
+I couldn&amp;rsquo;t remember how to publish a post.
+I don&amp;rsquo;t know what it was, maybe guithub pages, maybe the quarto framework, but definitly my dumbness was a big part of it.
+I just can&amp;rsquo;t grasp yet &lt;strong&gt;how&lt;/strong&gt; all this &lt;strong&gt;unintuitive git shenanigans work&lt;/strong&gt;.
+So I&amp;rsquo;ve been postponing my new blog post, knowing what awaited me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>hello, world!</title>
       <link>http://localhost:1313/posts/1_hello_world/</link>
       <pubDate>Sun, 05 Mar 2023 22:18:37 +0100</pubDate>
       <guid>http://localhost:1313/posts/1_hello_world/</guid>
-      <description>&lt;p&gt;I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you).&#xA;There is so much potential and I have so many ideas!&lt;/p&gt;&#xA;&lt;p&gt;So, lately I’ve been:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;grinding through &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8SF_h3xF3cE&amp;amp;list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&#34;&gt;fast.ai Practical Deep Learning for Coders&lt;/a&gt;&lt;/strong&gt; (just finished the 4th lesson this week)&lt;/li&gt;&#xA;&lt;li&gt;exploring &lt;strong&gt;website domain name&lt;/strong&gt; stuff and setting up an website of my previous project (Primary care KPIs exploration tool, &lt;strong&gt;&lt;a href=&#34;mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt;&lt;/strong&gt;)&lt;/li&gt;&#xA;&lt;li&gt;reconnecting to social media (I’ve been away for a while now), setting up linkedin, twitter and joining relevant discord servers&lt;/li&gt;&#xA;&lt;li&gt;after completing &lt;strong&gt;&lt;a href=&#34;https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/&#34;&gt;Postgraduate Program in Information Management and Business Intelligence in Healthcare&lt;/a&gt;&lt;/strong&gt; @NOVA IMS, I felt the need to keep learning about data mining, so i’m doing a single course on Predictive Methods of Data Mining&lt;/li&gt;&#xA;&lt;li&gt;exploring DL, ML, NLP and LLM main concepts and recent developments (looking at you &lt;a href=&#34;https://www.chatbase.co/&#34;&gt;chatbase.co&lt;/a&gt;, &lt;a href=&#34;https://www.chatpdf.com/&#34;&gt;ChatPDF&lt;/a&gt; and &lt;a href=&#34;https://quarto-bot.onrender.com/&#34;&gt;Quarto Help Bot&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;trying and failing implementing LLMs with jupyter notebooks&lt;/li&gt;&#xA;&lt;li&gt;exploring how to start a blog (thanks fast.ai for the push!)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Initially I thought implementing a blog with &lt;strong&gt;Dash&lt;/strong&gt; and publish it on &lt;a href=&#34;https://www.pythonanywhere.com/&#34;&gt;pythonanywhere.com&lt;/a&gt;, since I’ve worked with Flask in the past months.&#xA;But that would take more time to set up something that might be already solved.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you).
+There is so much potential and I have so many ideas!&lt;/p&gt;
+&lt;p&gt;So, lately I’ve been:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;grinding through &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8SF_h3xF3cE&amp;amp;list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&#34;&gt;fast.ai Practical Deep Learning for Coders&lt;/a&gt;&lt;/strong&gt; (just finished the 4th lesson this week)&lt;/li&gt;
+&lt;li&gt;exploring &lt;strong&gt;website domain name&lt;/strong&gt; stuff and setting up an website of my previous project (Primary care KPIs exploration tool, &lt;strong&gt;&lt;a href=&#34;mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt;&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;reconnecting to social media (I’ve been away for a while now), setting up linkedin, twitter and joining relevant discord servers&lt;/li&gt;
+&lt;li&gt;after completing &lt;strong&gt;&lt;a href=&#34;https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/&#34;&gt;Postgraduate Program in Information Management and Business Intelligence in Healthcare&lt;/a&gt;&lt;/strong&gt; @NOVA IMS, I felt the need to keep learning about data mining, so i’m doing a single course on Predictive Methods of Data Mining&lt;/li&gt;
+&lt;li&gt;exploring DL, ML, NLP and LLM main concepts and recent developments (looking at you &lt;a href=&#34;https://www.chatbase.co/&#34;&gt;chatbase.co&lt;/a&gt;, &lt;a href=&#34;https://www.chatpdf.com/&#34;&gt;ChatPDF&lt;/a&gt; and &lt;a href=&#34;https://quarto-bot.onrender.com/&#34;&gt;Quarto Help Bot&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;trying and failing implementing LLMs with jupyter notebooks&lt;/li&gt;
+&lt;li&gt;exploring how to start a blog (thanks fast.ai for the push!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Initially I thought implementing a blog with &lt;strong&gt;Dash&lt;/strong&gt; and publish it on &lt;a href=&#34;https://www.pythonanywhere.com/&#34;&gt;pythonanywhere.com&lt;/a&gt;, since I’ve worked with Flask in the past months.
+But that would take more time to set up something that might be already solved.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

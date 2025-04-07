@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on diogo carapito</title>
     <link>http://localhost:1313/tags/projects/</link>
     <description>Recent content in Projects on diogo carapito</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 May 2023 00:41:49 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,30 @@
       <link>http://localhost:1313/posts/4_mgfhub/</link>
       <pubDate>Tue, 02 May 2023 00:41:49 +0100</pubDate>
       <guid>http://localhost:1313/posts/4_mgfhub/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m excited to announce that &lt;strong&gt;&lt;a href=&#34;https://mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt;&lt;/strong&gt; is now live!&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s sort of a search tool with data visualization components for &lt;strong&gt;KPIs&lt;/strong&gt; (&amp;ldquo;indicadores&amp;rdquo;) that exists in Portuguese Primary Care.&#xA;I have imagined it for more than a year, and it&amp;rsquo;s trying to &lt;strong&gt;answer questions&lt;/strong&gt; that I have in my daily life as a Family Medicine Resident when I&amp;rsquo;m working with KPIs:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How many KPIs exist?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How do KPIs work?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How to quickly find specific KPIs (&lt;em&gt;e.g. which KPIs are related to diabetes?&lt;/em&gt;)&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to announce that &lt;strong&gt;&lt;a href=&#34;https://mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt;&lt;/strong&gt; is now live!&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s sort of a search tool with data visualization components for &lt;strong&gt;KPIs&lt;/strong&gt; (&amp;ldquo;indicadores&amp;rdquo;) that exists in Portuguese Primary Care.
+I have imagined it for more than a year, and it&amp;rsquo;s trying to &lt;strong&gt;answer questions&lt;/strong&gt; that I have in my daily life as a Family Medicine Resident when I&amp;rsquo;m working with KPIs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How many KPIs exist?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How do KPIs work?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to quickly find specific KPIs (&lt;em&gt;e.g. which KPIs are related to diabetes?&lt;/em&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>webapps and tutorials</title>
       <link>http://localhost:1313/posts/2_webapps_and_tutorials/</link>
       <pubDate>Sat, 11 Mar 2023 00:41:49 +0200</pubDate>
       <guid>http://localhost:1313/posts/2_webapps_and_tutorials/</guid>
-      <description>&lt;p&gt;This week has been exciting.&#xA;I have this &lt;strong&gt;NLP project&lt;/strong&gt; cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.&lt;/p&gt;&#xA;&lt;p&gt;For the backend, I’ve been cruising through &lt;strong&gt;&lt;a href=&#34;https://www.pinecone.io/&#34;&gt;Pinecone&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://langchain.readthedocs.io/en/latest/&#34;&gt;LangChain&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;OpenAI API&lt;/strong&gt;, thanks to tutorials from &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@jamesbriggs&#34;&gt;James Briggs&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@DataIndependent&#34;&gt;Data independent&lt;/a&gt;&lt;/strong&gt;.&#xA;Google colab has been my best friend.&lt;/p&gt;&#xA;&lt;p&gt;Even though the backend is the new exciting stuff, I have a sweet spot for the way it’s presented.&#xA;The frontend must:&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week has been exciting.
+I have this &lt;strong&gt;NLP project&lt;/strong&gt; cooking inside my head (for some time now) and I’ve been speeding through many youtube tutorials on both backend and frontend structure.&lt;/p&gt;
+&lt;p&gt;For the backend, I’ve been cruising through &lt;strong&gt;&lt;a href=&#34;https://www.pinecone.io/&#34;&gt;Pinecone&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://langchain.readthedocs.io/en/latest/&#34;&gt;LangChain&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;OpenAI API&lt;/strong&gt;, thanks to tutorials from &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@jamesbriggs&#34;&gt;James Briggs&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@DataIndependent&#34;&gt;Data independent&lt;/a&gt;&lt;/strong&gt;.
+Google colab has been my best friend.&lt;/p&gt;
+&lt;p&gt;Even though the backend is the new exciting stuff, I have a sweet spot for the way it’s presented.
+The frontend must:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

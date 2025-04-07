@@ -7,6 +7,7 @@ draft: false
 cover:
     image: 6_Medical Large Language Models for Clinical Text Summarization Information Extraction and Question Answering.png
     alt: LLM_Bootcamp_2023
+draft: false
 ---
 
 I attended last week the **Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering** from [John Snow Labs](https://www.johnsnowlabs.com/).

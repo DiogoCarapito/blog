@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LLM on diogo carapito</title>
     <link>http://localhost:1313/tags/llm/</link>
     <description>Recent content in LLM on diogo carapito</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Jun 2023 09:10:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,32 @@
       <link>http://localhost:1313/posts/6_medical_llms/</link>
       <pubDate>Sun, 25 Jun 2023 09:10:00 +0100</pubDate>
       <guid>http://localhost:1313/posts/6_medical_llms/</guid>
-      <description>&lt;p&gt;I attended last week the &lt;strong&gt;Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering&lt;/strong&gt; from &lt;a href=&#34;https://www.johnsnowlabs.com/&#34;&gt;John Snow Labs&lt;/a&gt;.&#xA;I&amp;rsquo;m sharing my notes here.&lt;/p&gt;&#xA;&lt;h1 id=&#34;llms&#34;&gt;LLMs&lt;/h1&gt;&#xA;&lt;p&gt;LLMs and NLP in general are providing new tools to solve existing problems in healthcare.&#xA;Here is a list of some new tools that are available today:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Question Answering&lt;/li&gt;&#xA;&lt;li&gt;Text Summarization&lt;/li&gt;&#xA;&lt;li&gt;Text Generation&lt;/li&gt;&#xA;&lt;li&gt;Information extraction (&lt;em&gt;e.g.&lt;/em&gt; from clinical notes)&lt;/li&gt;&#xA;&lt;li&gt;Relation extraction (&lt;em&gt;e.g.&lt;/em&gt; symptoms related to a disease)&lt;/li&gt;&#xA;&lt;li&gt;Entity recognition (like ICD-10 code extraction)&lt;/li&gt;&#xA;&lt;li&gt;Chatbots&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from &lt;a href=&#34;https://www.anthropic.com/index/introducing-claude&#34;&gt;Anthropic&lt;/a&gt;.&#xA;The last tend to be general purpose, powerful, but extremely expensive to train.&#xA;The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks.&#xA;This field is moving fast, which means that there is much potential for innovation, but it&amp;rsquo;s also a challenge to keep up with the state-of-the-art.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I attended last week the &lt;strong&gt;Medical Large Language Models for Clinical Text Summarization, Information Extraction, and Question Answering&lt;/strong&gt; from &lt;a href=&#34;https://www.johnsnowlabs.com/&#34;&gt;John Snow Labs&lt;/a&gt;.
+I&amp;rsquo;m sharing my notes here.&lt;/p&gt;
+&lt;h1 id=&#34;llms&#34;&gt;LLMs&lt;/h1&gt;
+&lt;p&gt;LLMs and NLP in general are providing new tools to solve existing problems in healthcare.
+Here is a list of some new tools that are available today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Question Answering&lt;/li&gt;
+&lt;li&gt;Text Summarization&lt;/li&gt;
+&lt;li&gt;Text Generation&lt;/li&gt;
+&lt;li&gt;Information extraction (&lt;em&gt;e.g.&lt;/em&gt; from clinical notes)&lt;/li&gt;
+&lt;li&gt;Relation extraction (&lt;em&gt;e.g.&lt;/em&gt; symptoms related to a disease)&lt;/li&gt;
+&lt;li&gt;Entity recognition (like ICD-10 code extraction)&lt;/li&gt;
+&lt;li&gt;Chatbots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many open source LLMs available today have close performance to the best commercial state-of-the-art models, like GPT-4, GPT-3.5-turbo form OpenAI or Claude from &lt;a href=&#34;https://www.anthropic.com/index/introducing-claude&#34;&gt;Anthropic&lt;/a&gt;.
+The last tend to be general purpose, powerful, but extremely expensive to train.
+The open source models tend to lack performance in a broad sense but can be fine-tuned to specific tasks.
+This field is moving fast, which means that there is much potential for innovation, but it&amp;rsquo;s also a challenge to keep up with the state-of-the-art.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LLM Bootcamp 2023</title>
+      <link>http://localhost:1313/posts/7_llm_bootcamp_2023/</link>
+      <pubDate>Sun, 25 Jun 2023 08:09:28 +0100</pubDate>
+      <guid>http://localhost:1313/posts/7_llm_bootcamp_2023/</guid>
+      <description>&lt;p&gt;I discovered the LLM Bootcamp 2023 on youtube.
+It&amp;rsquo;s a conference about MLOps that was recorded on April 2023 and it anserers many of my questions&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

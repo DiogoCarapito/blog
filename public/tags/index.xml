@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on diogo carapito</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on diogo carapito</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Dec 2024 11:17:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2023 08:39:56 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>http://localhost:1313/tags/blog/</link>
-      <pubDate>Thu, 19 Dec 2024 11:17:00 +0000</pubDate>
+      <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
       <guid>http://localhost:1313/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Updates</title>
-      <link>http://localhost:1313/tags/updates/</link>
-      <pubDate>Thu, 19 Dec 2024 11:17:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/updates/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +20,13 @@
       <link>http://localhost:1313/tags/mlops/</link>
       <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
       <guid>http://localhost:1313/tags/mlops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Updates</title>
+      <link>http://localhost:1313/tags/updates/</link>
+      <pubDate>Sun, 29 Oct 2023 08:39:56 +0000</pubDate>
+      <guid>http://localhost:1313/tags/updates/</guid>
       <description></description>
     </item>
     <item>

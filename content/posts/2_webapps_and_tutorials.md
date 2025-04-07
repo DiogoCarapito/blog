@@ -6,7 +6,7 @@ tags: ["projects", "datavis", "healthcare"]
 cover:
     image: 2_streamlit.png
     alt: webapps
-    
+draft: false
 ---
 
 This week has been exciting.

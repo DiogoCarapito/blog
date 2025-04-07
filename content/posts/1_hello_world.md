@@ -6,6 +6,7 @@ tags: ["updates", "blog"]
 cover:
     image: "1_Diogo DALL-E circle 512.png"
     alt: Diogo Carapito
+draft: false
 ---
 
 I’ve been charging into different directions on my journey to build a bridge between health and tech (NLP and LLMs, I’m looking at you).

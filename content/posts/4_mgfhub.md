@@ -6,6 +6,7 @@ tags: ["projects", "datavis", "healthcare"]
 cover:
     image: 4_mgfhub.png
     alt: "mgfhub.com"
+draft: false
 ---
 
 I'm excited to announce that **[mgfhub.com](https://mgfhub.com)** is now live!

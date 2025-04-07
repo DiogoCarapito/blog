@@ -1,22 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <title>NLP Summit Healthcare 2023</title>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>NLP Summit Healthcare 2023 | diogo carapito</title>
+<meta name="keywords" content="NLP, healthcare, conference, John Snow Labs">
+<meta name="description" content="This week I attended the NLP Summit Healthcare 2023, a free virtual event organized by the John Snow Labs.
+It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.
+1. Best practices when developing NLP models
+Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/3_nlp_summit_healtchare_2023/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/3_nlp_summit_healtchare_2023/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
 </head>
-<body>
-    <article>
-        <h1>NLP Summit Healthcare 2023</h1>
-        <div><p>This week I attended the <strong><a href="https://www.nlpsummit.org/">NLP Summit Healthcare 2023</a></strong>, a free virtual event organized by the <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>.
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="diogo carapito (Alt + H)">diogo carapito</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      NLP Summit Healthcare 2023
+    </h1>
+    <div class="post-meta"><span title='2023-04-07 22:18:37 +0100 WEST'>April 7, 2023</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/3_NLP-Summit-Healthcare-logo.png" alt="NLP Summit Healthcare 2023">
+        
+</figure>
+  <div class="post-content"><p>This week I attended the <strong><a href="https://www.nlpsummit.org/">NLP Summit Healthcare 2023</a></strong>, a free virtual event organized by the <a href="https://www.johnsnowlabs.com/">John Snow Labs</a>.
 It was a great event with a lot of interesting talks. I’ll share some of my key takeaways.</p>
-<h2 id="1-best-practices-when-developing-nlp-models">1. Best practices when developing NLP models</h2>
+<h2 id="1-best-practices-when-developing-nlp-models">1. Best practices when developing NLP models<a hidden class="anchor" aria-hidden="true" href="#1-best-practices-when-developing-nlp-models">#</a></h2>
 <p>Presented in the opening keynote by Dr. David Gondek, Chief Data Scientist at John Snow Labs, he sumarized some best practices that i found interesting as I’m beginning my NLP journey:</p>
 <ul>
 <li><strong>Test your models!</strong> - why would you expect untested software to work? Test your models with real data and real use cases and assess it’s performance.</li>
 <li><strong>Don’t reuse academic models in production</strong> - published research ≠ building reliable systems, testing and fine-tuning are essencial parts of developing a functional tool.</li>
 <li><strong>Test beyond accuracy</strong> - Test for Robustness, Bias, Fairness, Toxicity, Efficiency, Safety. John Snow Labs developed <strong><a href="https://nlptest.org/">NLP test</a></strong> to help with model testing beyond regular benchmarks.</li>
 </ul>
-<h2 id="2-mitigating-bias-in-healthcare-language-models">2. Mitigating bias in healthcare language models</h2>
+<h2 id="2-mitigating-bias-in-healthcare-language-models">2. Mitigating bias in healthcare language models<a hidden class="anchor" aria-hidden="true" href="#2-mitigating-bias-in-healthcare-language-models">#</a></h2>
 <p>Gaurav Kaushik from ScienceIO presented a talk about <strong>mitigating bias</strong> in <strong>healthcare language models</strong> and the importance of its evaluation. <strong>Performance benchmarks</strong> lack the statistical power, they aren’t well validated enough and <strong>don’t incentivize the use of biased systems</strong>.</p>
 <ul>
 <li><strong>Algorithmic bias</strong>
@@ -33,16 +161,16 @@ It was a great event with a lot of interesting talks. I’ll share some of my ke
 <li><strong>Domain Bias</strong> - error bias in medical subdomains, such as disease areas, which can impair generalization</li>
 </ul>
 <p>Check this article for further information: <a href="https://aclanthology.org/2020.acl-main.442.pdf">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList</a></p>
-<h2 id="3-prototypical-networks-for-interpretable-diagnosis-prediction">3. Prototypical Networks for Interpretable Diagnosis Prediction</h2>
+<h2 id="3-prototypical-networks-for-interpretable-diagnosis-prediction">3. Prototypical Networks for Interpretable Diagnosis Prediction<a hidden class="anchor" aria-hidden="true" href="#3-prototypical-networks-for-interpretable-diagnosis-prediction">#</a></h2>
 <p><strong>Betty van Aken</strong> from <strong>DATEXIS Research Group</strong> presented a language model that <strong>makes predictions</strong> based on parts of the text that are <strong>similar to prototypical patients</strong> providing justifications that doctors understand.
 It uses a prototypical network with label-wise attention to <strong>find the most similar patients to the input text</strong> and then uses a transformer to <strong>predict the diagnosis</strong>.
 This is a great example of how NLP can be used in healthcare space and opens the door to a lot of interesting applications.</p>
 <p>Check their <a href="https://protopatient.demo.datexis.com/">demo</a> and the paper here: <a href="https://aclanthology.org/2022.aacl-main.14.pdf">This Patient Looks Like That Patient: Prototypical Networks for Interpretable Diagnosis Prediction from Clinical Text</a></p>
-<h2 id="4-ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records">4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records</h2>
+<h2 id="4-ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records">4. EHR-Safe: Generating High-Fidelity and Privacy-Preserving Synthetic Electronic Health Records<a hidden class="anchor" aria-hidden="true" href="#4-ehr-safe-generating-high-fidelity-and-privacy-preserving-synthetic-electronic-health-records">#</a></h2>
 <p>AI in healthcare has important <strong>privacy concerns</strong>, especially when dealing with <strong>sensitive data like Electronic Health Records</strong> (EHR). Cloud AI Team suggested that one way to overcome this challenge is to generate high-fidelity, privacy-preserving synthetic EHR data.
 They proposed a generative modeling framework, EHR-Safe, that <strong>can generate highly realistic synthetic EHR data</strong> that are robust against privacy attacks.</p>
 <p>Check their paper here: <a href="https://ai.googleblog.com/2022/12/ehr-safe-generating-high-fidelity-and.html">EHR-Safe: Generating high-fidelity and privacy-preserving synthetic electronic health records</a></p>
-<h2 id="5-some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare">5. Some organizations that are doing interesting work in NLP in healthcare:</h2>
+<h2 id="5-some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare">5. Some organizations that are doing interesting work in NLP in healthcare:<a hidden class="anchor" aria-hidden="true" href="#5-some-organizations-that-are-doing-interesting-work-in-nlp-in-healthcare">#</a></h2>
 <ul>
 <li><strong><a href="https://www.johnsnowlabs.com/">John Snow Labs</a></strong> - organizer of the summit and creator of state-of-the-art NLP in healthcare, like <a href="https://github.com/johnsnowlabs/nlptest">NLP test</a> and <a href="https://sparknlp.org/">SparkNLP</a></li>
 <li><strong><a href="https://discoverylab.ai/">Discovery Lab</a></strong> - Lab funded by Elsevier, Vrije Universiteit Amsterdam and the University of Amsterdam that operates at the crossroads of Knowledge Representation, Machine Learning and Natural Language Processing.</li>
@@ -79,7 +207,90 @@ I’ll be there next year for sure!
 Thanks for reading!</p>
 <p>P.S. Copilot helped writing this blog post.
 LLMs are amazing and I’m excited to see what the future holds for NLP!</p>
-</div>
-    </article>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/nlp/">NLP</a></li>
+      <li><a href="http://localhost:1313/tags/healthcare/">Healthcare</a></li>
+      <li><a href="http://localhost:1313/tags/conference/">Conference</a></li>
+      <li><a href="http://localhost:1313/tags/john-snow-labs/">John Snow Labs</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">diogo carapito</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>

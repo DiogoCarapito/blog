@@ -6,7 +6,7 @@ tags: ["NLP", "healthcare", "conference", "John Snow Labs"]
 cover:
     image: 3_NLP-Summit-Healthcare-logo.png
     alt: NLP Summit Healthcare 2023
-
+draft: false
 ---
 
 This week I attended the **[NLP Summit Healthcare 2023](https://www.nlpsummit.org/)**, a free virtual event organized by the [John Snow Labs](https://www.johnsnowlabs.com/).

@@ -7,6 +7,7 @@ draft: true
 cover:
     image: the_full_stack_llm_boothcamp_2023.png
     alt: LLM_Bootcamp_2023
+draft: false
 ---
 
 I discovered the LLM Bootcamp 2023 on youtube.
