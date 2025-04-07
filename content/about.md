@@ -2,7 +2,6 @@
 title: "About"
 image: profile.jpg
 about:
-  template: jolla
   links:
     - icon: twitter
       text: Twitter
@@ -12,19 +11,25 @@ about:
       href: https://github.com/diogocarapito
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/diogo-carapito-564a51262/
-
+      href: https://www.linkedin.com/in/diogo-carapito
+draft: false
 ---
 
 # Diogo Carapito
-Medical Doctor, Studied @[NOVA Medical School](https://www.nms.unl.pt/en-us/nms)
 
-4rd year General and Family Medicine resident @[ARSLVT](https://www.arslvt.min-saude.pt/), Portugal
+Family Medicine, M.D.
+Data Science
 
 Postgraduate Program in Information Management and Business Intelligence in Healthcare @[NOVA IMS](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/)
 
+Family Medicine Residency @USF Mactamã, ULS Amadora-Sintra, Portugal
+
+Medical Degree @[NOVA Medical School](https://www.nms.unl.pt/en-us/nms), Portugal
+
 ---
 
-Ongoing projects:
+Projects:
 
-- [mgfhub.com](https://mgfhub.com), a webapp to help search and find information primary care KPI's.
+- [mgfhub.com](https://mgfhub.com) -- Dashboards to help Primary Care Units access performance of key indicators and assist clinical governance
+
+- [text-to-icpc2.com](text-to-icpc2.com) -- BERT-based fine tuned model that helps find the correct code of ICPC-2 classification system from a clinical diagnosis

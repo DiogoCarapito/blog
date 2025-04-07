@@ -129,14 +129,19 @@ But that would take more time to set up something that might be already solved.&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;diogo-carapito&#34;&gt;Diogo Carapito&lt;/h1&gt;
-&lt;p&gt;Medical Doctor, Studied @&lt;a href=&#34;https://www.nms.unl.pt/en-us/nms&#34;&gt;NOVA Medical School&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4rd year General and Family Medicine resident @&lt;a href=&#34;https://www.arslvt.min-saude.pt/&#34;&gt;ARSLVT&lt;/a&gt;, Portugal&lt;/p&gt;
+&lt;p&gt;Family Medicine, M.D.
+Data Science&lt;/p&gt;
 &lt;p&gt;Postgraduate Program in Information Management and Business Intelligence in Healthcare @&lt;a href=&#34;https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/postgraduate-program-in-information-management-and-business-intelligence-in-healthcare/&#34;&gt;NOVA IMS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Family Medicine Residency @USF Mactamã, ULS Amadora-Sintra, Portugal&lt;/p&gt;
+&lt;p&gt;Medical Degree @&lt;a href=&#34;https://www.nms.unl.pt/en-us/nms&#34;&gt;NOVA Medical School&lt;/a&gt;, Portugal&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Ongoing projects:&lt;/p&gt;
+&lt;p&gt;Projects:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt;, a webapp to help search and find information primary care KPI&amp;rsquo;s.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mgfhub.com&#34;&gt;mgfhub.com&lt;/a&gt; &amp;ndash; Dashboards to help Primary Care Units access performance of key indicators and assist clinical governance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;text-to-icpc2.com&#34;&gt;text-to-icpc2.com&lt;/a&gt; &amp;ndash; BERT-based fine tuned model that helps find the correct code of ICPC-2 classification system from a clinical diagnosis&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
